@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/T.dir/Chapter_3/T.cpp.o  -o T.exe -Wl,--out-implib,libT.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

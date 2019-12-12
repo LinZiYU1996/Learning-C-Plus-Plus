@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/typecast.dir/Chapter_3/typecast.cpp.o  -o typecast.exe -Wl,--out-implib,libtypecast.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
