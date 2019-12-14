@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/travel.dir/Chapter_7/travel.cpp.o  -o travel.exe -Wl,--out-implib,libtravel.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

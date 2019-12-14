@@ -39,38 +39,27 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/ly/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /cygdrive/c/Users/linziyu/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/ly/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /cygdrive/c/Users/linziyu/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus
+CMAKE_SOURCE_DIR = /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/cygdrive/c/Users/ly/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/cygdrive/c/Users/ly/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
+	/cygdrive/c/Users/linziyu/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,11 +67,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/cygdrive/c/Users/linziyu/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,30 +111,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named typecast
+# Target rules for targets named modulus
 
 # Build rule for target.
-typecast: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 typecast
-.PHONY : typecast
+modulus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 modulus
+.PHONY : modulus
 
 # fast build rule for target.
-typecast/fast:
-	$(MAKE) -f CMakeFiles/typecast.dir/build.make CMakeFiles/typecast.dir/build
-.PHONY : typecast/fast
+modulus/fast:
+	$(MAKE) -f CMakeFiles/modulus.dir/build.make CMakeFiles/modulus.dir/build
+.PHONY : modulus/fast
 
 #=============================================================================
-# Target rules for targets named T1
+# Target rules for targets named twoarg
 
 # Build rule for target.
-T1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 T1
-.PHONY : T1
+twoarg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 twoarg
+.PHONY : twoarg
 
 # fast build rule for target.
-T1/fast:
-	$(MAKE) -f CMakeFiles/T1.dir/build.make CMakeFiles/T1.dir/build
-.PHONY : T1/fast
+twoarg/fast:
+	$(MAKE) -f CMakeFiles/twoarg.dir/build.make CMakeFiles/twoarg.dir/build
+.PHONY : twoarg/fast
 
 #=============================================================================
 # Target rules for targets named Learning_From_Primer_Plus
@@ -150,17 +150,121 @@ Learning_From_Primer_Plus/fast:
 .PHONY : Learning_From_Primer_Plus/fast
 
 #=============================================================================
-# Target rules for targets named T
+# Target rules for targets named arrfun1
 
 # Build rule for target.
-T : cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 T
-.PHONY : T
+arrfun1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 arrfun1
+.PHONY : arrfun1
 
 # fast build rule for target.
-T/fast:
-	$(MAKE) -f CMakeFiles/T.dir/build.make CMakeFiles/T.dir/build
-.PHONY : T/fast
+arrfun1/fast:
+	$(MAKE) -f CMakeFiles/arrfun1.dir/build.make CMakeFiles/arrfun1.dir/build
+.PHONY : arrfun1/fast
+
+#=============================================================================
+# Target rules for targets named T1
+
+# Build rule for target.
+T1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 T1
+.PHONY : T1
+
+# fast build rule for target.
+T1/fast:
+	$(MAKE) -f CMakeFiles/T1.dir/build.make CMakeFiles/T1.dir/build
+.PHONY : T1/fast
+
+#=============================================================================
+# Target rules for targets named typecast
+
+# Build rule for target.
+typecast: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 typecast
+.PHONY : typecast
+
+# fast build rule for target.
+typecast/fast:
+	$(MAKE) -f CMakeFiles/typecast.dir/build.make CMakeFiles/typecast.dir/build
+.PHONY : typecast/fast
+
+#=============================================================================
+# Target rules for targets named Opp
+
+# Build rule for target.
+Opp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Opp
+.PHONY : Opp
+
+# fast build rule for target.
+Opp/fast:
+	$(MAKE) -f CMakeFiles/Opp.dir/build.make CMakeFiles/Opp.dir/build
+.PHONY : Opp/fast
+
+#=============================================================================
+# Target rules for targets named protos
+
+# Build rule for target.
+protos: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 protos
+.PHONY : protos
+
+# fast build rule for target.
+protos/fast:
+	$(MAKE) -f CMakeFiles/protos.dir/build.make CMakeFiles/protos.dir/build
+.PHONY : protos/fast
+
+#=============================================================================
+# Target rules for targets named calling
+
+# Build rule for target.
+calling: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 calling
+.PHONY : calling
+
+# fast build rule for target.
+calling/fast:
+	$(MAKE) -f CMakeFiles/calling.dir/build.make CMakeFiles/calling.dir/build
+.PHONY : calling/fast
+
+#=============================================================================
+# Target rules for targets named lotto
+
+# Build rule for target.
+lotto: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lotto
+.PHONY : lotto
+
+# fast build rule for target.
+lotto/fast:
+	$(MAKE) -f CMakeFiles/lotto.dir/build.make CMakeFiles/lotto.dir/build
+.PHONY : lotto/fast
+
+#=============================================================================
+# Target rules for targets named travel
+
+# Build rule for target.
+travel: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 travel
+.PHONY : travel
+
+# fast build rule for target.
+travel/fast:
+	$(MAKE) -f CMakeFiles/travel.dir/build.make CMakeFiles/travel.dir/build
+.PHONY : travel/fast
+
+#=============================================================================
+# Target rules for targets named init
+
+# Build rule for target.
+init: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 init
+.PHONY : init
+
+# fast build rule for target.
+init/fast:
+	$(MAKE) -f CMakeFiles/init.dir/build.make CMakeFiles/init.dir/build
+.PHONY : init/fast
 
 #=============================================================================
 # Target rules for targets named divide
@@ -176,30 +280,83 @@ divide/fast:
 .PHONY : divide/fast
 
 #=============================================================================
-# Target rules for targets named modulus
+# Target rules for targets named arrfun3
 
 # Build rule for target.
-modulus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 modulus
-.PHONY : modulus
+arrfun3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 arrfun3
+.PHONY : arrfun3
 
 # fast build rule for target.
-modulus/fast:
-	$(MAKE) -f CMakeFiles/modulus.dir/build.make CMakeFiles/modulus.dir/build
-.PHONY : modulus/fast
+arrfun3/fast:
+	$(MAKE) -f CMakeFiles/arrfun3.dir/build.make CMakeFiles/arrfun3.dir/build
+.PHONY : arrfun3/fast
 
 #=============================================================================
-# Target rules for targets named init
+# Target rules for targets named arrfun2
 
 # Build rule for target.
-init: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 init
-.PHONY : init
+arrfun2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 arrfun2
+.PHONY : arrfun2
 
 # fast build rule for target.
-init/fast:
-	$(MAKE) -f CMakeFiles/init.dir/build.make CMakeFiles/init.dir/build
-.PHONY : init/fast
+arrfun2/fast:
+	$(MAKE) -f CMakeFiles/arrfun2.dir/build.make CMakeFiles/arrfun2.dir/build
+.PHONY : arrfun2/fast
+
+#=============================================================================
+# Target rules for targets named T
+
+# Build rule for target.
+T : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 T
+.PHONY : T
+
+# fast build rule for target.
+T/fast:
+	$(MAKE) -f CMakeFiles/T.dir/build.make CMakeFiles/T.dir/build
+.PHONY : T/fast
+
+#=============================================================================
+# Target rules for targets named arrfun4
+
+# Build rule for target.
+arrfun4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 arrfun4
+.PHONY : arrfun4
+
+# fast build rule for target.
+arrfun4/fast:
+	$(MAKE) -f CMakeFiles/arrfun4.dir/build.make CMakeFiles/arrfun4.dir/build
+.PHONY : arrfun4/fast
+
+Chapter_3/Opp.o: Chapter_3/Opp.cpp.o
+
+.PHONY : Chapter_3/Opp.o
+
+# target to build an object file
+Chapter_3/Opp.cpp.o:
+	$(MAKE) -f CMakeFiles/Opp.dir/build.make CMakeFiles/Opp.dir/Chapter_3/Opp.cpp.o
+.PHONY : Chapter_3/Opp.cpp.o
+
+Chapter_3/Opp.i: Chapter_3/Opp.cpp.i
+
+.PHONY : Chapter_3/Opp.i
+
+# target to preprocess a source file
+Chapter_3/Opp.cpp.i:
+	$(MAKE) -f CMakeFiles/Opp.dir/build.make CMakeFiles/Opp.dir/Chapter_3/Opp.cpp.i
+.PHONY : Chapter_3/Opp.cpp.i
+
+Chapter_3/Opp.s: Chapter_3/Opp.cpp.s
+
+.PHONY : Chapter_3/Opp.s
+
+# target to generate assembly for a file
+Chapter_3/Opp.cpp.s:
+	$(MAKE) -f CMakeFiles/Opp.dir/build.make CMakeFiles/Opp.dir/Chapter_3/Opp.cpp.s
+.PHONY : Chapter_3/Opp.cpp.s
 
 Chapter_3/T.o: Chapter_3/T.cpp.o
 
@@ -336,6 +493,249 @@ Chapter_3/typecast.cpp.s:
 	$(MAKE) -f CMakeFiles/typecast.dir/build.make CMakeFiles/typecast.dir/Chapter_3/typecast.cpp.s
 .PHONY : Chapter_3/typecast.cpp.s
 
+Chapter_7/arrfun1.o: Chapter_7/arrfun1.cpp.o
+
+.PHONY : Chapter_7/arrfun1.o
+
+# target to build an object file
+Chapter_7/arrfun1.cpp.o:
+	$(MAKE) -f CMakeFiles/arrfun1.dir/build.make CMakeFiles/arrfun1.dir/Chapter_7/arrfun1.cpp.o
+.PHONY : Chapter_7/arrfun1.cpp.o
+
+Chapter_7/arrfun1.i: Chapter_7/arrfun1.cpp.i
+
+.PHONY : Chapter_7/arrfun1.i
+
+# target to preprocess a source file
+Chapter_7/arrfun1.cpp.i:
+	$(MAKE) -f CMakeFiles/arrfun1.dir/build.make CMakeFiles/arrfun1.dir/Chapter_7/arrfun1.cpp.i
+.PHONY : Chapter_7/arrfun1.cpp.i
+
+Chapter_7/arrfun1.s: Chapter_7/arrfun1.cpp.s
+
+.PHONY : Chapter_7/arrfun1.s
+
+# target to generate assembly for a file
+Chapter_7/arrfun1.cpp.s:
+	$(MAKE) -f CMakeFiles/arrfun1.dir/build.make CMakeFiles/arrfun1.dir/Chapter_7/arrfun1.cpp.s
+.PHONY : Chapter_7/arrfun1.cpp.s
+
+Chapter_7/arrfun2.o: Chapter_7/arrfun2.cpp.o
+
+.PHONY : Chapter_7/arrfun2.o
+
+# target to build an object file
+Chapter_7/arrfun2.cpp.o:
+	$(MAKE) -f CMakeFiles/arrfun2.dir/build.make CMakeFiles/arrfun2.dir/Chapter_7/arrfun2.cpp.o
+.PHONY : Chapter_7/arrfun2.cpp.o
+
+Chapter_7/arrfun2.i: Chapter_7/arrfun2.cpp.i
+
+.PHONY : Chapter_7/arrfun2.i
+
+# target to preprocess a source file
+Chapter_7/arrfun2.cpp.i:
+	$(MAKE) -f CMakeFiles/arrfun2.dir/build.make CMakeFiles/arrfun2.dir/Chapter_7/arrfun2.cpp.i
+.PHONY : Chapter_7/arrfun2.cpp.i
+
+Chapter_7/arrfun2.s: Chapter_7/arrfun2.cpp.s
+
+.PHONY : Chapter_7/arrfun2.s
+
+# target to generate assembly for a file
+Chapter_7/arrfun2.cpp.s:
+	$(MAKE) -f CMakeFiles/arrfun2.dir/build.make CMakeFiles/arrfun2.dir/Chapter_7/arrfun2.cpp.s
+.PHONY : Chapter_7/arrfun2.cpp.s
+
+Chapter_7/arrfun3.o: Chapter_7/arrfun3.cpp.o
+
+.PHONY : Chapter_7/arrfun3.o
+
+# target to build an object file
+Chapter_7/arrfun3.cpp.o:
+	$(MAKE) -f CMakeFiles/arrfun3.dir/build.make CMakeFiles/arrfun3.dir/Chapter_7/arrfun3.cpp.o
+.PHONY : Chapter_7/arrfun3.cpp.o
+
+Chapter_7/arrfun3.i: Chapter_7/arrfun3.cpp.i
+
+.PHONY : Chapter_7/arrfun3.i
+
+# target to preprocess a source file
+Chapter_7/arrfun3.cpp.i:
+	$(MAKE) -f CMakeFiles/arrfun3.dir/build.make CMakeFiles/arrfun3.dir/Chapter_7/arrfun3.cpp.i
+.PHONY : Chapter_7/arrfun3.cpp.i
+
+Chapter_7/arrfun3.s: Chapter_7/arrfun3.cpp.s
+
+.PHONY : Chapter_7/arrfun3.s
+
+# target to generate assembly for a file
+Chapter_7/arrfun3.cpp.s:
+	$(MAKE) -f CMakeFiles/arrfun3.dir/build.make CMakeFiles/arrfun3.dir/Chapter_7/arrfun3.cpp.s
+.PHONY : Chapter_7/arrfun3.cpp.s
+
+Chapter_7/arrfun4.o: Chapter_7/arrfun4.cpp.o
+
+.PHONY : Chapter_7/arrfun4.o
+
+# target to build an object file
+Chapter_7/arrfun4.cpp.o:
+	$(MAKE) -f CMakeFiles/arrfun4.dir/build.make CMakeFiles/arrfun4.dir/Chapter_7/arrfun4.cpp.o
+.PHONY : Chapter_7/arrfun4.cpp.o
+
+Chapter_7/arrfun4.i: Chapter_7/arrfun4.cpp.i
+
+.PHONY : Chapter_7/arrfun4.i
+
+# target to preprocess a source file
+Chapter_7/arrfun4.cpp.i:
+	$(MAKE) -f CMakeFiles/arrfun4.dir/build.make CMakeFiles/arrfun4.dir/Chapter_7/arrfun4.cpp.i
+.PHONY : Chapter_7/arrfun4.cpp.i
+
+Chapter_7/arrfun4.s: Chapter_7/arrfun4.cpp.s
+
+.PHONY : Chapter_7/arrfun4.s
+
+# target to generate assembly for a file
+Chapter_7/arrfun4.cpp.s:
+	$(MAKE) -f CMakeFiles/arrfun4.dir/build.make CMakeFiles/arrfun4.dir/Chapter_7/arrfun4.cpp.s
+.PHONY : Chapter_7/arrfun4.cpp.s
+
+Chapter_7/calling.o: Chapter_7/calling.cpp.o
+
+.PHONY : Chapter_7/calling.o
+
+# target to build an object file
+Chapter_7/calling.cpp.o:
+	$(MAKE) -f CMakeFiles/calling.dir/build.make CMakeFiles/calling.dir/Chapter_7/calling.cpp.o
+.PHONY : Chapter_7/calling.cpp.o
+
+Chapter_7/calling.i: Chapter_7/calling.cpp.i
+
+.PHONY : Chapter_7/calling.i
+
+# target to preprocess a source file
+Chapter_7/calling.cpp.i:
+	$(MAKE) -f CMakeFiles/calling.dir/build.make CMakeFiles/calling.dir/Chapter_7/calling.cpp.i
+.PHONY : Chapter_7/calling.cpp.i
+
+Chapter_7/calling.s: Chapter_7/calling.cpp.s
+
+.PHONY : Chapter_7/calling.s
+
+# target to generate assembly for a file
+Chapter_7/calling.cpp.s:
+	$(MAKE) -f CMakeFiles/calling.dir/build.make CMakeFiles/calling.dir/Chapter_7/calling.cpp.s
+.PHONY : Chapter_7/calling.cpp.s
+
+Chapter_7/lotto.o: Chapter_7/lotto.cpp.o
+
+.PHONY : Chapter_7/lotto.o
+
+# target to build an object file
+Chapter_7/lotto.cpp.o:
+	$(MAKE) -f CMakeFiles/lotto.dir/build.make CMakeFiles/lotto.dir/Chapter_7/lotto.cpp.o
+.PHONY : Chapter_7/lotto.cpp.o
+
+Chapter_7/lotto.i: Chapter_7/lotto.cpp.i
+
+.PHONY : Chapter_7/lotto.i
+
+# target to preprocess a source file
+Chapter_7/lotto.cpp.i:
+	$(MAKE) -f CMakeFiles/lotto.dir/build.make CMakeFiles/lotto.dir/Chapter_7/lotto.cpp.i
+.PHONY : Chapter_7/lotto.cpp.i
+
+Chapter_7/lotto.s: Chapter_7/lotto.cpp.s
+
+.PHONY : Chapter_7/lotto.s
+
+# target to generate assembly for a file
+Chapter_7/lotto.cpp.s:
+	$(MAKE) -f CMakeFiles/lotto.dir/build.make CMakeFiles/lotto.dir/Chapter_7/lotto.cpp.s
+.PHONY : Chapter_7/lotto.cpp.s
+
+Chapter_7/protos.o: Chapter_7/protos.cpp.o
+
+.PHONY : Chapter_7/protos.o
+
+# target to build an object file
+Chapter_7/protos.cpp.o:
+	$(MAKE) -f CMakeFiles/protos.dir/build.make CMakeFiles/protos.dir/Chapter_7/protos.cpp.o
+.PHONY : Chapter_7/protos.cpp.o
+
+Chapter_7/protos.i: Chapter_7/protos.cpp.i
+
+.PHONY : Chapter_7/protos.i
+
+# target to preprocess a source file
+Chapter_7/protos.cpp.i:
+	$(MAKE) -f CMakeFiles/protos.dir/build.make CMakeFiles/protos.dir/Chapter_7/protos.cpp.i
+.PHONY : Chapter_7/protos.cpp.i
+
+Chapter_7/protos.s: Chapter_7/protos.cpp.s
+
+.PHONY : Chapter_7/protos.s
+
+# target to generate assembly for a file
+Chapter_7/protos.cpp.s:
+	$(MAKE) -f CMakeFiles/protos.dir/build.make CMakeFiles/protos.dir/Chapter_7/protos.cpp.s
+.PHONY : Chapter_7/protos.cpp.s
+
+Chapter_7/travel.o: Chapter_7/travel.cpp.o
+
+.PHONY : Chapter_7/travel.o
+
+# target to build an object file
+Chapter_7/travel.cpp.o:
+	$(MAKE) -f CMakeFiles/travel.dir/build.make CMakeFiles/travel.dir/Chapter_7/travel.cpp.o
+.PHONY : Chapter_7/travel.cpp.o
+
+Chapter_7/travel.i: Chapter_7/travel.cpp.i
+
+.PHONY : Chapter_7/travel.i
+
+# target to preprocess a source file
+Chapter_7/travel.cpp.i:
+	$(MAKE) -f CMakeFiles/travel.dir/build.make CMakeFiles/travel.dir/Chapter_7/travel.cpp.i
+.PHONY : Chapter_7/travel.cpp.i
+
+Chapter_7/travel.s: Chapter_7/travel.cpp.s
+
+.PHONY : Chapter_7/travel.s
+
+# target to generate assembly for a file
+Chapter_7/travel.cpp.s:
+	$(MAKE) -f CMakeFiles/travel.dir/build.make CMakeFiles/travel.dir/Chapter_7/travel.cpp.s
+.PHONY : Chapter_7/travel.cpp.s
+
+Chapter_7/twoarg.o: Chapter_7/twoarg.cpp.o
+
+.PHONY : Chapter_7/twoarg.o
+
+# target to build an object file
+Chapter_7/twoarg.cpp.o:
+	$(MAKE) -f CMakeFiles/twoarg.dir/build.make CMakeFiles/twoarg.dir/Chapter_7/twoarg.cpp.o
+.PHONY : Chapter_7/twoarg.cpp.o
+
+Chapter_7/twoarg.i: Chapter_7/twoarg.cpp.i
+
+.PHONY : Chapter_7/twoarg.i
+
+# target to preprocess a source file
+Chapter_7/twoarg.cpp.i:
+	$(MAKE) -f CMakeFiles/twoarg.dir/build.make CMakeFiles/twoarg.dir/Chapter_7/twoarg.cpp.i
+.PHONY : Chapter_7/twoarg.cpp.i
+
+Chapter_7/twoarg.s: Chapter_7/twoarg.cpp.s
+
+.PHONY : Chapter_7/twoarg.s
+
+# target to generate assembly for a file
+Chapter_7/twoarg.cpp.s:
+	$(MAKE) -f CMakeFiles/twoarg.dir/build.make CMakeFiles/twoarg.dir/Chapter_7/twoarg.cpp.s
+.PHONY : Chapter_7/twoarg.cpp.s
+
 T1.o: T1.cpp.o
 
 .PHONY : T1.o
@@ -396,15 +796,28 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... typecast"
-	@echo "... T1"
-	@echo "... Learning_From_Primer_Plus"
-	@echo "... T"
-	@echo "... divide"
 	@echo "... modulus"
+	@echo "... twoarg"
+	@echo "... Learning_From_Primer_Plus"
+	@echo "... arrfun1"
+	@echo "... rebuild_cache"
+	@echo "... T1"
+	@echo "... typecast"
+	@echo "... Opp"
+	@echo "... protos"
+	@echo "... calling"
+	@echo "... lotto"
+	@echo "... travel"
 	@echo "... init"
+	@echo "... divide"
+	@echo "... arrfun3"
+	@echo "... arrfun2"
+	@echo "... T"
+	@echo "... arrfun4"
+	@echo "... Chapter_3/Opp.o"
+	@echo "... Chapter_3/Opp.i"
+	@echo "... Chapter_3/Opp.s"
 	@echo "... Chapter_3/T.o"
 	@echo "... Chapter_3/T.i"
 	@echo "... Chapter_3/T.s"
@@ -420,6 +833,33 @@ help:
 	@echo "... Chapter_3/typecast.o"
 	@echo "... Chapter_3/typecast.i"
 	@echo "... Chapter_3/typecast.s"
+	@echo "... Chapter_7/arrfun1.o"
+	@echo "... Chapter_7/arrfun1.i"
+	@echo "... Chapter_7/arrfun1.s"
+	@echo "... Chapter_7/arrfun2.o"
+	@echo "... Chapter_7/arrfun2.i"
+	@echo "... Chapter_7/arrfun2.s"
+	@echo "... Chapter_7/arrfun3.o"
+	@echo "... Chapter_7/arrfun3.i"
+	@echo "... Chapter_7/arrfun3.s"
+	@echo "... Chapter_7/arrfun4.o"
+	@echo "... Chapter_7/arrfun4.i"
+	@echo "... Chapter_7/arrfun4.s"
+	@echo "... Chapter_7/calling.o"
+	@echo "... Chapter_7/calling.i"
+	@echo "... Chapter_7/calling.s"
+	@echo "... Chapter_7/lotto.o"
+	@echo "... Chapter_7/lotto.i"
+	@echo "... Chapter_7/lotto.s"
+	@echo "... Chapter_7/protos.o"
+	@echo "... Chapter_7/protos.i"
+	@echo "... Chapter_7/protos.s"
+	@echo "... Chapter_7/travel.o"
+	@echo "... Chapter_7/travel.i"
+	@echo "... Chapter_7/travel.s"
+	@echo "... Chapter_7/twoarg.o"
+	@echo "... Chapter_7/twoarg.i"
+	@echo "... Chapter_7/twoarg.s"
 	@echo "... T1.o"
 	@echo "... T1.i"
 	@echo "... T1.s"

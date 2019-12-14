@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/calling.dir/Chapter_7/calling.cpp.o  -o calling.exe -Wl,--out-implib,libcalling.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

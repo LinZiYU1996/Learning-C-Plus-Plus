@@ -35,42 +35,62 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/ly/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /cygdrive/c/Users/linziyu/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/ly/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /cygdrive/c/Users/linziyu/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus
+CMAKE_SOURCE_DIR = /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/typecast.dir/all
-all: CMakeFiles/T1.dir/all
-all: CMakeFiles/Learning_From_Primer_Plus.dir/all
-all: CMakeFiles/T.dir/all
-all: CMakeFiles/divide.dir/all
 all: CMakeFiles/modulus.dir/all
+all: CMakeFiles/twoarg.dir/all
+all: CMakeFiles/Learning_From_Primer_Plus.dir/all
+all: CMakeFiles/arrfun1.dir/all
+all: CMakeFiles/T1.dir/all
+all: CMakeFiles/typecast.dir/all
+all: CMakeFiles/Opp.dir/all
+all: CMakeFiles/protos.dir/all
+all: CMakeFiles/calling.dir/all
+all: CMakeFiles/lotto.dir/all
+all: CMakeFiles/travel.dir/all
 all: CMakeFiles/init.dir/all
+all: CMakeFiles/divide.dir/all
+all: CMakeFiles/arrfun3.dir/all
+all: CMakeFiles/arrfun2.dir/all
+all: CMakeFiles/T.dir/all
+all: CMakeFiles/arrfun4.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/typecast.dir/clean
-clean: CMakeFiles/T1.dir/clean
-clean: CMakeFiles/Learning_From_Primer_Plus.dir/clean
-clean: CMakeFiles/T.dir/clean
-clean: CMakeFiles/divide.dir/clean
 clean: CMakeFiles/modulus.dir/clean
+clean: CMakeFiles/twoarg.dir/clean
+clean: CMakeFiles/Learning_From_Primer_Plus.dir/clean
+clean: CMakeFiles/arrfun1.dir/clean
+clean: CMakeFiles/T1.dir/clean
+clean: CMakeFiles/typecast.dir/clean
+clean: CMakeFiles/Opp.dir/clean
+clean: CMakeFiles/protos.dir/clean
+clean: CMakeFiles/calling.dir/clean
+clean: CMakeFiles/lotto.dir/clean
+clean: CMakeFiles/travel.dir/clean
 clean: CMakeFiles/init.dir/clean
+clean: CMakeFiles/divide.dir/clean
+clean: CMakeFiles/arrfun3.dir/clean
+clean: CMakeFiles/arrfun2.dir/clean
+clean: CMakeFiles/T.dir/clean
+clean: CMakeFiles/arrfun4.dir/clean
 
 .PHONY : clean
 
@@ -80,155 +100,20 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/typecast.dir
-
-# All Build rule for target.
-CMakeFiles/typecast.dir/all:
-	$(MAKE) -f CMakeFiles/typecast.dir/build.make CMakeFiles/typecast.dir/depend
-	$(MAKE) -f CMakeFiles/typecast.dir/build.make CMakeFiles/typecast.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target typecast"
-.PHONY : CMakeFiles/typecast.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/typecast.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/typecast.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/typecast.dir/rule
-
-# Convenience name for target.
-typecast: CMakeFiles/typecast.dir/rule
-
-.PHONY : typecast
-
-# clean rule for target.
-CMakeFiles/typecast.dir/clean:
-	$(MAKE) -f CMakeFiles/typecast.dir/build.make CMakeFiles/typecast.dir/clean
-.PHONY : CMakeFiles/typecast.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/T1.dir
-
-# All Build rule for target.
-CMakeFiles/T1.dir/all:
-	$(MAKE) -f CMakeFiles/T1.dir/build.make CMakeFiles/T1.dir/depend
-	$(MAKE) -f CMakeFiles/T1.dir/build.make CMakeFiles/T1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target T1"
-.PHONY : CMakeFiles/T1.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/T1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/T1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/T1.dir/rule
-
-# Convenience name for target.
-T1: CMakeFiles/T1.dir/rule
-
-.PHONY : T1
-
-# clean rule for target.
-CMakeFiles/T1.dir/clean:
-	$(MAKE) -f CMakeFiles/T1.dir/build.make CMakeFiles/T1.dir/clean
-.PHONY : CMakeFiles/T1.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Learning_From_Primer_Plus.dir
-
-# All Build rule for target.
-CMakeFiles/Learning_From_Primer_Plus.dir/all:
-	$(MAKE) -f CMakeFiles/Learning_From_Primer_Plus.dir/build.make CMakeFiles/Learning_From_Primer_Plus.dir/depend
-	$(MAKE) -f CMakeFiles/Learning_From_Primer_Plus.dir/build.make CMakeFiles/Learning_From_Primer_Plus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Learning_From_Primer_Plus"
-.PHONY : CMakeFiles/Learning_From_Primer_Plus.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Learning_From_Primer_Plus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Learning_From_Primer_Plus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Learning_From_Primer_Plus.dir/rule
-
-# Convenience name for target.
-Learning_From_Primer_Plus: CMakeFiles/Learning_From_Primer_Plus.dir/rule
-
-.PHONY : Learning_From_Primer_Plus
-
-# clean rule for target.
-CMakeFiles/Learning_From_Primer_Plus.dir/clean:
-	$(MAKE) -f CMakeFiles/Learning_From_Primer_Plus.dir/build.make CMakeFiles/Learning_From_Primer_Plus.dir/clean
-.PHONY : CMakeFiles/Learning_From_Primer_Plus.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/T.dir
-
-# All Build rule for target.
-CMakeFiles/T.dir/all:
-	$(MAKE) -f CMakeFiles/T.dir/build.make CMakeFiles/T.dir/depend
-	$(MAKE) -f CMakeFiles/T.dir/build.make CMakeFiles/T.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target T"
-.PHONY : CMakeFiles/T.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/T.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/T.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/T.dir/rule
-
-# Convenience name for target.
-T : CMakeFiles/T.dir/rule
-
-.PHONY : T
-
-# clean rule for target.
-CMakeFiles/T.dir/clean:
-	$(MAKE) -f CMakeFiles/T.dir/build.make CMakeFiles/T.dir/clean
-.PHONY : CMakeFiles/T.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/divide.dir
-
-# All Build rule for target.
-CMakeFiles/divide.dir/all:
-	$(MAKE) -f CMakeFiles/divide.dir/build.make CMakeFiles/divide.dir/depend
-	$(MAKE) -f CMakeFiles/divide.dir/build.make CMakeFiles/divide.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target divide"
-.PHONY : CMakeFiles/divide.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/divide.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/divide.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/divide.dir/rule
-
-# Convenience name for target.
-divide: CMakeFiles/divide.dir/rule
-
-.PHONY : divide
-
-# clean rule for target.
-CMakeFiles/divide.dir/clean:
-	$(MAKE) -f CMakeFiles/divide.dir/build.make CMakeFiles/divide.dir/clean
-.PHONY : CMakeFiles/divide.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/modulus.dir
 
 # All Build rule for target.
 CMakeFiles/modulus.dir/all:
 	$(MAKE) -f CMakeFiles/modulus.dir/build.make CMakeFiles/modulus.dir/depend
 	$(MAKE) -f CMakeFiles/modulus.dir/build.make CMakeFiles/modulus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target modulus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target modulus"
 .PHONY : CMakeFiles/modulus.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/modulus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/modulus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/modulus.dir/rule
 
 # Convenience name for target.
@@ -242,20 +127,290 @@ CMakeFiles/modulus.dir/clean:
 .PHONY : CMakeFiles/modulus.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/twoarg.dir
+
+# All Build rule for target.
+CMakeFiles/twoarg.dir/all:
+	$(MAKE) -f CMakeFiles/twoarg.dir/build.make CMakeFiles/twoarg.dir/depend
+	$(MAKE) -f CMakeFiles/twoarg.dir/build.make CMakeFiles/twoarg.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target twoarg"
+.PHONY : CMakeFiles/twoarg.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/twoarg.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/twoarg.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/twoarg.dir/rule
+
+# Convenience name for target.
+twoarg: CMakeFiles/twoarg.dir/rule
+
+.PHONY : twoarg
+
+# clean rule for target.
+CMakeFiles/twoarg.dir/clean:
+	$(MAKE) -f CMakeFiles/twoarg.dir/build.make CMakeFiles/twoarg.dir/clean
+.PHONY : CMakeFiles/twoarg.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Learning_From_Primer_Plus.dir
+
+# All Build rule for target.
+CMakeFiles/Learning_From_Primer_Plus.dir/all:
+	$(MAKE) -f CMakeFiles/Learning_From_Primer_Plus.dir/build.make CMakeFiles/Learning_From_Primer_Plus.dir/depend
+	$(MAKE) -f CMakeFiles/Learning_From_Primer_Plus.dir/build.make CMakeFiles/Learning_From_Primer_Plus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Learning_From_Primer_Plus"
+.PHONY : CMakeFiles/Learning_From_Primer_Plus.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Learning_From_Primer_Plus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Learning_From_Primer_Plus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Learning_From_Primer_Plus.dir/rule
+
+# Convenience name for target.
+Learning_From_Primer_Plus: CMakeFiles/Learning_From_Primer_Plus.dir/rule
+
+.PHONY : Learning_From_Primer_Plus
+
+# clean rule for target.
+CMakeFiles/Learning_From_Primer_Plus.dir/clean:
+	$(MAKE) -f CMakeFiles/Learning_From_Primer_Plus.dir/build.make CMakeFiles/Learning_From_Primer_Plus.dir/clean
+.PHONY : CMakeFiles/Learning_From_Primer_Plus.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/arrfun1.dir
+
+# All Build rule for target.
+CMakeFiles/arrfun1.dir/all:
+	$(MAKE) -f CMakeFiles/arrfun1.dir/build.make CMakeFiles/arrfun1.dir/depend
+	$(MAKE) -f CMakeFiles/arrfun1.dir/build.make CMakeFiles/arrfun1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target arrfun1"
+.PHONY : CMakeFiles/arrfun1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/arrfun1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/arrfun1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/arrfun1.dir/rule
+
+# Convenience name for target.
+arrfun1: CMakeFiles/arrfun1.dir/rule
+
+.PHONY : arrfun1
+
+# clean rule for target.
+CMakeFiles/arrfun1.dir/clean:
+	$(MAKE) -f CMakeFiles/arrfun1.dir/build.make CMakeFiles/arrfun1.dir/clean
+.PHONY : CMakeFiles/arrfun1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/T1.dir
+
+# All Build rule for target.
+CMakeFiles/T1.dir/all:
+	$(MAKE) -f CMakeFiles/T1.dir/build.make CMakeFiles/T1.dir/depend
+	$(MAKE) -f CMakeFiles/T1.dir/build.make CMakeFiles/T1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target T1"
+.PHONY : CMakeFiles/T1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/T1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/T1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/T1.dir/rule
+
+# Convenience name for target.
+T1: CMakeFiles/T1.dir/rule
+
+.PHONY : T1
+
+# clean rule for target.
+CMakeFiles/T1.dir/clean:
+	$(MAKE) -f CMakeFiles/T1.dir/build.make CMakeFiles/T1.dir/clean
+.PHONY : CMakeFiles/T1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/typecast.dir
+
+# All Build rule for target.
+CMakeFiles/typecast.dir/all:
+	$(MAKE) -f CMakeFiles/typecast.dir/build.make CMakeFiles/typecast.dir/depend
+	$(MAKE) -f CMakeFiles/typecast.dir/build.make CMakeFiles/typecast.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target typecast"
+.PHONY : CMakeFiles/typecast.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/typecast.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/typecast.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/typecast.dir/rule
+
+# Convenience name for target.
+typecast: CMakeFiles/typecast.dir/rule
+
+.PHONY : typecast
+
+# clean rule for target.
+CMakeFiles/typecast.dir/clean:
+	$(MAKE) -f CMakeFiles/typecast.dir/build.make CMakeFiles/typecast.dir/clean
+.PHONY : CMakeFiles/typecast.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Opp.dir
+
+# All Build rule for target.
+CMakeFiles/Opp.dir/all:
+	$(MAKE) -f CMakeFiles/Opp.dir/build.make CMakeFiles/Opp.dir/depend
+	$(MAKE) -f CMakeFiles/Opp.dir/build.make CMakeFiles/Opp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target Opp"
+.PHONY : CMakeFiles/Opp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Opp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Opp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Opp.dir/rule
+
+# Convenience name for target.
+Opp: CMakeFiles/Opp.dir/rule
+
+.PHONY : Opp
+
+# clean rule for target.
+CMakeFiles/Opp.dir/clean:
+	$(MAKE) -f CMakeFiles/Opp.dir/build.make CMakeFiles/Opp.dir/clean
+.PHONY : CMakeFiles/Opp.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/protos.dir
+
+# All Build rule for target.
+CMakeFiles/protos.dir/all:
+	$(MAKE) -f CMakeFiles/protos.dir/build.make CMakeFiles/protos.dir/depend
+	$(MAKE) -f CMakeFiles/protos.dir/build.make CMakeFiles/protos.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target protos"
+.PHONY : CMakeFiles/protos.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/protos.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/protos.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/protos.dir/rule
+
+# Convenience name for target.
+protos: CMakeFiles/protos.dir/rule
+
+.PHONY : protos
+
+# clean rule for target.
+CMakeFiles/protos.dir/clean:
+	$(MAKE) -f CMakeFiles/protos.dir/build.make CMakeFiles/protos.dir/clean
+.PHONY : CMakeFiles/protos.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/calling.dir
+
+# All Build rule for target.
+CMakeFiles/calling.dir/all:
+	$(MAKE) -f CMakeFiles/calling.dir/build.make CMakeFiles/calling.dir/depend
+	$(MAKE) -f CMakeFiles/calling.dir/build.make CMakeFiles/calling.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target calling"
+.PHONY : CMakeFiles/calling.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/calling.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/calling.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/calling.dir/rule
+
+# Convenience name for target.
+calling: CMakeFiles/calling.dir/rule
+
+.PHONY : calling
+
+# clean rule for target.
+CMakeFiles/calling.dir/clean:
+	$(MAKE) -f CMakeFiles/calling.dir/build.make CMakeFiles/calling.dir/clean
+.PHONY : CMakeFiles/calling.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lotto.dir
+
+# All Build rule for target.
+CMakeFiles/lotto.dir/all:
+	$(MAKE) -f CMakeFiles/lotto.dir/build.make CMakeFiles/lotto.dir/depend
+	$(MAKE) -f CMakeFiles/lotto.dir/build.make CMakeFiles/lotto.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target lotto"
+.PHONY : CMakeFiles/lotto.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lotto.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/lotto.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/lotto.dir/rule
+
+# Convenience name for target.
+lotto: CMakeFiles/lotto.dir/rule
+
+.PHONY : lotto
+
+# clean rule for target.
+CMakeFiles/lotto.dir/clean:
+	$(MAKE) -f CMakeFiles/lotto.dir/build.make CMakeFiles/lotto.dir/clean
+.PHONY : CMakeFiles/lotto.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/travel.dir
+
+# All Build rule for target.
+CMakeFiles/travel.dir/all:
+	$(MAKE) -f CMakeFiles/travel.dir/build.make CMakeFiles/travel.dir/depend
+	$(MAKE) -f CMakeFiles/travel.dir/build.make CMakeFiles/travel.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target travel"
+.PHONY : CMakeFiles/travel.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/travel.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/travel.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/travel.dir/rule
+
+# Convenience name for target.
+travel: CMakeFiles/travel.dir/rule
+
+.PHONY : travel
+
+# clean rule for target.
+CMakeFiles/travel.dir/clean:
+	$(MAKE) -f CMakeFiles/travel.dir/build.make CMakeFiles/travel.dir/clean
+.PHONY : CMakeFiles/travel.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/init.dir
 
 # All Build rule for target.
 CMakeFiles/init.dir/all:
 	$(MAKE) -f CMakeFiles/init.dir/build.make CMakeFiles/init.dir/depend
 	$(MAKE) -f CMakeFiles/init.dir/build.make CMakeFiles/init.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target init"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target init"
 .PHONY : CMakeFiles/init.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/init.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/init.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/init.dir/rule
 
 # Convenience name for target.
@@ -267,6 +422,141 @@ init: CMakeFiles/init.dir/rule
 CMakeFiles/init.dir/clean:
 	$(MAKE) -f CMakeFiles/init.dir/build.make CMakeFiles/init.dir/clean
 .PHONY : CMakeFiles/init.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/divide.dir
+
+# All Build rule for target.
+CMakeFiles/divide.dir/all:
+	$(MAKE) -f CMakeFiles/divide.dir/build.make CMakeFiles/divide.dir/depend
+	$(MAKE) -f CMakeFiles/divide.dir/build.make CMakeFiles/divide.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target divide"
+.PHONY : CMakeFiles/divide.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/divide.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/divide.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/divide.dir/rule
+
+# Convenience name for target.
+divide: CMakeFiles/divide.dir/rule
+
+.PHONY : divide
+
+# clean rule for target.
+CMakeFiles/divide.dir/clean:
+	$(MAKE) -f CMakeFiles/divide.dir/build.make CMakeFiles/divide.dir/clean
+.PHONY : CMakeFiles/divide.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/arrfun3.dir
+
+# All Build rule for target.
+CMakeFiles/arrfun3.dir/all:
+	$(MAKE) -f CMakeFiles/arrfun3.dir/build.make CMakeFiles/arrfun3.dir/depend
+	$(MAKE) -f CMakeFiles/arrfun3.dir/build.make CMakeFiles/arrfun3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target arrfun3"
+.PHONY : CMakeFiles/arrfun3.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/arrfun3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/arrfun3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/arrfun3.dir/rule
+
+# Convenience name for target.
+arrfun3: CMakeFiles/arrfun3.dir/rule
+
+.PHONY : arrfun3
+
+# clean rule for target.
+CMakeFiles/arrfun3.dir/clean:
+	$(MAKE) -f CMakeFiles/arrfun3.dir/build.make CMakeFiles/arrfun3.dir/clean
+.PHONY : CMakeFiles/arrfun3.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/arrfun2.dir
+
+# All Build rule for target.
+CMakeFiles/arrfun2.dir/all:
+	$(MAKE) -f CMakeFiles/arrfun2.dir/build.make CMakeFiles/arrfun2.dir/depend
+	$(MAKE) -f CMakeFiles/arrfun2.dir/build.make CMakeFiles/arrfun2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target arrfun2"
+.PHONY : CMakeFiles/arrfun2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/arrfun2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/arrfun2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/arrfun2.dir/rule
+
+# Convenience name for target.
+arrfun2: CMakeFiles/arrfun2.dir/rule
+
+.PHONY : arrfun2
+
+# clean rule for target.
+CMakeFiles/arrfun2.dir/clean:
+	$(MAKE) -f CMakeFiles/arrfun2.dir/build.make CMakeFiles/arrfun2.dir/clean
+.PHONY : CMakeFiles/arrfun2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/T.dir
+
+# All Build rule for target.
+CMakeFiles/T.dir/all:
+	$(MAKE) -f CMakeFiles/T.dir/build.make CMakeFiles/T.dir/depend
+	$(MAKE) -f CMakeFiles/T.dir/build.make CMakeFiles/T.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target T"
+.PHONY : CMakeFiles/T.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/T.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/T.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/T.dir/rule
+
+# Convenience name for target.
+T : CMakeFiles/T.dir/rule
+
+.PHONY : T
+
+# clean rule for target.
+CMakeFiles/T.dir/clean:
+	$(MAKE) -f CMakeFiles/T.dir/build.make CMakeFiles/T.dir/clean
+.PHONY : CMakeFiles/T.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/arrfun4.dir
+
+# All Build rule for target.
+CMakeFiles/arrfun4.dir/all:
+	$(MAKE) -f CMakeFiles/arrfun4.dir/build.make CMakeFiles/arrfun4.dir/depend
+	$(MAKE) -f CMakeFiles/arrfun4.dir/build.make CMakeFiles/arrfun4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target arrfun4"
+.PHONY : CMakeFiles/arrfun4.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/arrfun4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/arrfun4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/arrfun4.dir/rule
+
+# Convenience name for target.
+arrfun4: CMakeFiles/arrfun4.dir/rule
+
+.PHONY : arrfun4
+
+# clean rule for target.
+CMakeFiles/arrfun4.dir/clean:
+	$(MAKE) -f CMakeFiles/arrfun4.dir/build.make CMakeFiles/arrfun4.dir/clean
+.PHONY : CMakeFiles/arrfun4.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

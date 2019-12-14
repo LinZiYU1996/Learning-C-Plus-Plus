@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/twoarg.dir/Chapter_7/twoarg.cpp.o  -o twoarg.exe -Wl,--out-implib,libtwoarg.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/arrfun4.dir/Chapter_7/arrfun4.cpp.o  -o arrfun4.exe -Wl,--out-implib,libarrfun4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
