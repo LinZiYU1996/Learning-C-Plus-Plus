@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/inline.dir/Chapter_8/inline.cpp.o  -o inline.exe -Wl,--out-implib,libinline.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/secref.dir/Chapter_8/secref.cpp.o  -o secref.exe -Wl,--out-implib,libsecref.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
