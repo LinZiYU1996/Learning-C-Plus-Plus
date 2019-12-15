@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/ly/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /cygdrive/c/Users/linziyu/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/ly/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /cygdrive/c/Users/linziyu/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus
+CMAKE_SOURCE_DIR = /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_P
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/cygdrive/c/Users/ly/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
+	/cygdrive/c/Users/linziyu/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -70,7 +70,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/cygdrive/c/Users/ly/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/cygdrive/c/Users/linziyu/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -109,6 +109,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named strc_ref
+
+# Build rule for target.
+strc_ref: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 strc_ref
+.PHONY : strc_ref
+
+# fast build rule for target.
+strc_ref/fast:
+	$(MAKE) -f CMakeFiles/strc_ref.dir/build.make CMakeFiles/strc_ref.dir/build
+.PHONY : strc_ref/fast
 
 #=============================================================================
 # Target rules for targets named swaps
@@ -148,6 +161,19 @@ inline: cmake_check_build_system
 inline/fast:
 	$(MAKE) -f CMakeFiles/inline.dir/build.make CMakeFiles/inline.dir/build
 .PHONY : inline/fast
+
+#=============================================================================
+# Target rules for targets named cubes
+
+# Build rule for target.
+cubes: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cubes
+.PHONY : cubes
+
+# fast build rule for target.
+cubes/fast:
+	$(MAKE) -f CMakeFiles/cubes.dir/build.make CMakeFiles/cubes.dir/build
+.PHONY : cubes/fast
 
 #=============================================================================
 # Target rules for targets named arrobj
@@ -868,6 +894,33 @@ Chapter_7/twoarg.cpp.s:
 	$(MAKE) -f CMakeFiles/twoarg.dir/build.make CMakeFiles/twoarg.dir/Chapter_7/twoarg.cpp.s
 .PHONY : Chapter_7/twoarg.cpp.s
 
+Chapter_8/cubes.o: Chapter_8/cubes.cpp.o
+
+.PHONY : Chapter_8/cubes.o
+
+# target to build an object file
+Chapter_8/cubes.cpp.o:
+	$(MAKE) -f CMakeFiles/cubes.dir/build.make CMakeFiles/cubes.dir/Chapter_8/cubes.cpp.o
+.PHONY : Chapter_8/cubes.cpp.o
+
+Chapter_8/cubes.i: Chapter_8/cubes.cpp.i
+
+.PHONY : Chapter_8/cubes.i
+
+# target to preprocess a source file
+Chapter_8/cubes.cpp.i:
+	$(MAKE) -f CMakeFiles/cubes.dir/build.make CMakeFiles/cubes.dir/Chapter_8/cubes.cpp.i
+.PHONY : Chapter_8/cubes.cpp.i
+
+Chapter_8/cubes.s: Chapter_8/cubes.cpp.s
+
+.PHONY : Chapter_8/cubes.s
+
+# target to generate assembly for a file
+Chapter_8/cubes.cpp.s:
+	$(MAKE) -f CMakeFiles/cubes.dir/build.make CMakeFiles/cubes.dir/Chapter_8/cubes.cpp.s
+.PHONY : Chapter_8/cubes.cpp.s
+
 Chapter_8/firstref.o: Chapter_8/firstref.cpp.o
 
 .PHONY : Chapter_8/firstref.o
@@ -948,6 +1001,33 @@ Chapter_8/secref.s: Chapter_8/secref.cpp.s
 Chapter_8/secref.cpp.s:
 	$(MAKE) -f CMakeFiles/secref.dir/build.make CMakeFiles/secref.dir/Chapter_8/secref.cpp.s
 .PHONY : Chapter_8/secref.cpp.s
+
+Chapter_8/strc_ref.o: Chapter_8/strc_ref.cpp.o
+
+.PHONY : Chapter_8/strc_ref.o
+
+# target to build an object file
+Chapter_8/strc_ref.cpp.o:
+	$(MAKE) -f CMakeFiles/strc_ref.dir/build.make CMakeFiles/strc_ref.dir/Chapter_8/strc_ref.cpp.o
+.PHONY : Chapter_8/strc_ref.cpp.o
+
+Chapter_8/strc_ref.i: Chapter_8/strc_ref.cpp.i
+
+.PHONY : Chapter_8/strc_ref.i
+
+# target to preprocess a source file
+Chapter_8/strc_ref.cpp.i:
+	$(MAKE) -f CMakeFiles/strc_ref.dir/build.make CMakeFiles/strc_ref.dir/Chapter_8/strc_ref.cpp.i
+.PHONY : Chapter_8/strc_ref.cpp.i
+
+Chapter_8/strc_ref.s: Chapter_8/strc_ref.cpp.s
+
+.PHONY : Chapter_8/strc_ref.s
+
+# target to generate assembly for a file
+Chapter_8/strc_ref.cpp.s:
+	$(MAKE) -f CMakeFiles/strc_ref.dir/build.make CMakeFiles/strc_ref.dir/Chapter_8/strc_ref.cpp.s
+.PHONY : Chapter_8/strc_ref.cpp.s
 
 Chapter_8/swaps.o: Chapter_8/swaps.cpp.o
 
@@ -1037,9 +1117,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... strc_ref"
 	@echo "... swaps"
 	@echo "... secref"
 	@echo "... inline"
+	@echo "... cubes"
 	@echo "... arrobj"
 	@echo "... strctptr"
 	@echo "... modulus"
@@ -1112,6 +1194,9 @@ help:
 	@echo "... Chapter_7/twoarg.o"
 	@echo "... Chapter_7/twoarg.i"
 	@echo "... Chapter_7/twoarg.s"
+	@echo "... Chapter_8/cubes.o"
+	@echo "... Chapter_8/cubes.i"
+	@echo "... Chapter_8/cubes.s"
 	@echo "... Chapter_8/firstref.o"
 	@echo "... Chapter_8/firstref.i"
 	@echo "... Chapter_8/firstref.s"
@@ -1121,6 +1206,9 @@ help:
 	@echo "... Chapter_8/secref.o"
 	@echo "... Chapter_8/secref.i"
 	@echo "... Chapter_8/secref.s"
+	@echo "... Chapter_8/strc_ref.o"
+	@echo "... Chapter_8/strc_ref.i"
+	@echo "... Chapter_8/strc_ref.s"
 	@echo "... Chapter_8/swaps.o"
 	@echo "... Chapter_8/swaps.i"
 	@echo "... Chapter_8/swaps.s"

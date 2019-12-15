@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/cubes.dir/Chapter_8/cubes.cpp.o  -o cubes.exe -Wl,--out-implib,libcubes.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

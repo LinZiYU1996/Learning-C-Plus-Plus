@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/strc_ref.dir/Chapter_8/strc_ref.cpp.o  -o strc_ref.exe -Wl,--out-implib,libstrc_ref.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
