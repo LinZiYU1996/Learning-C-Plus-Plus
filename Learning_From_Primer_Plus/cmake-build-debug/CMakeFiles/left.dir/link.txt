@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/left.dir/Chapter_8/left.cpp.o  -o left.exe -Wl,--out-implib,libleft.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/linziyu/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /cygdrive/c/Users/ly/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/linziyu/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /cygdrive/c/Users/ly/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus
+CMAKE_SOURCE_DIR = /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_P
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/cygdrive/c/Users/linziyu/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
+	/cygdrive/c/Users/ly/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -70,7 +70,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/cygdrive/c/Users/linziyu/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/cygdrive/c/Users/ly/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -109,6 +109,32 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named funtemp
+
+# Build rule for target.
+funtemp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 funtemp
+.PHONY : funtemp
+
+# fast build rule for target.
+funtemp/fast:
+	$(MAKE) -f CMakeFiles/funtemp.dir/build.make CMakeFiles/funtemp.dir/build
+.PHONY : funtemp/fast
+
+#=============================================================================
+# Target rules for targets named strquote
+
+# Build rule for target.
+strquote: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 strquote
+.PHONY : strquote
+
+# fast build rule for target.
+strquote/fast:
+	$(MAKE) -f CMakeFiles/strquote.dir/build.make CMakeFiles/strquote.dir/build
+.PHONY : strquote/fast
 
 #=============================================================================
 # Target rules for targets named strc_ref
@@ -200,6 +226,19 @@ strctptr: cmake_check_build_system
 strctptr/fast:
 	$(MAKE) -f CMakeFiles/strctptr.dir/build.make CMakeFiles/strctptr.dir/build
 .PHONY : strctptr/fast
+
+#=============================================================================
+# Target rules for targets named twotemps
+
+# Build rule for target.
+twotemps: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 twotemps
+.PHONY : twotemps
+
+# fast build rule for target.
+twotemps/fast:
+	$(MAKE) -f CMakeFiles/twotemps.dir/build.make CMakeFiles/twotemps.dir/build
+.PHONY : twotemps/fast
 
 #=============================================================================
 # Target rules for targets named modulus
@@ -332,6 +371,19 @@ calling/fast:
 .PHONY : calling/fast
 
 #=============================================================================
+# Target rules for targets named twoswap
+
+# Build rule for target.
+twoswap: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 twoswap
+.PHONY : twoswap
+
+# fast build rule for target.
+twoswap/fast:
+	$(MAKE) -f CMakeFiles/twoswap.dir/build.make CMakeFiles/twoswap.dir/build
+.PHONY : twoswap/fast
+
+#=============================================================================
 # Target rules for targets named lotto
 
 # Build rule for target.
@@ -343,6 +395,19 @@ lotto: cmake_check_build_system
 lotto/fast:
 	$(MAKE) -f CMakeFiles/lotto.dir/build.make CMakeFiles/lotto.dir/build
 .PHONY : lotto/fast
+
+#=============================================================================
+# Target rules for targets named left
+
+# Build rule for target.
+left: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 left
+.PHONY : left
+
+# fast build rule for target.
+left/fast:
+	$(MAKE) -f CMakeFiles/left.dir/build.make CMakeFiles/left.dir/build
+.PHONY : left/fast
 
 #=============================================================================
 # Target rules for targets named travel
@@ -948,6 +1013,33 @@ Chapter_8/firstref.cpp.s:
 	$(MAKE) -f CMakeFiles/firstref.dir/build.make CMakeFiles/firstref.dir/Chapter_8/firstref.cpp.s
 .PHONY : Chapter_8/firstref.cpp.s
 
+Chapter_8/funtemp.o: Chapter_8/funtemp.cpp.o
+
+.PHONY : Chapter_8/funtemp.o
+
+# target to build an object file
+Chapter_8/funtemp.cpp.o:
+	$(MAKE) -f CMakeFiles/funtemp.dir/build.make CMakeFiles/funtemp.dir/Chapter_8/funtemp.cpp.o
+.PHONY : Chapter_8/funtemp.cpp.o
+
+Chapter_8/funtemp.i: Chapter_8/funtemp.cpp.i
+
+.PHONY : Chapter_8/funtemp.i
+
+# target to preprocess a source file
+Chapter_8/funtemp.cpp.i:
+	$(MAKE) -f CMakeFiles/funtemp.dir/build.make CMakeFiles/funtemp.dir/Chapter_8/funtemp.cpp.i
+.PHONY : Chapter_8/funtemp.cpp.i
+
+Chapter_8/funtemp.s: Chapter_8/funtemp.cpp.s
+
+.PHONY : Chapter_8/funtemp.s
+
+# target to generate assembly for a file
+Chapter_8/funtemp.cpp.s:
+	$(MAKE) -f CMakeFiles/funtemp.dir/build.make CMakeFiles/funtemp.dir/Chapter_8/funtemp.cpp.s
+.PHONY : Chapter_8/funtemp.cpp.s
+
 Chapter_8/inline.o: Chapter_8/inline.cpp.o
 
 .PHONY : Chapter_8/inline.o
@@ -974,6 +1066,33 @@ Chapter_8/inline.s: Chapter_8/inline.cpp.s
 Chapter_8/inline.cpp.s:
 	$(MAKE) -f CMakeFiles/inline.dir/build.make CMakeFiles/inline.dir/Chapter_8/inline.cpp.s
 .PHONY : Chapter_8/inline.cpp.s
+
+Chapter_8/left.o: Chapter_8/left.cpp.o
+
+.PHONY : Chapter_8/left.o
+
+# target to build an object file
+Chapter_8/left.cpp.o:
+	$(MAKE) -f CMakeFiles/left.dir/build.make CMakeFiles/left.dir/Chapter_8/left.cpp.o
+.PHONY : Chapter_8/left.cpp.o
+
+Chapter_8/left.i: Chapter_8/left.cpp.i
+
+.PHONY : Chapter_8/left.i
+
+# target to preprocess a source file
+Chapter_8/left.cpp.i:
+	$(MAKE) -f CMakeFiles/left.dir/build.make CMakeFiles/left.dir/Chapter_8/left.cpp.i
+.PHONY : Chapter_8/left.cpp.i
+
+Chapter_8/left.s: Chapter_8/left.cpp.s
+
+.PHONY : Chapter_8/left.s
+
+# target to generate assembly for a file
+Chapter_8/left.cpp.s:
+	$(MAKE) -f CMakeFiles/left.dir/build.make CMakeFiles/left.dir/Chapter_8/left.cpp.s
+.PHONY : Chapter_8/left.cpp.s
 
 Chapter_8/secref.o: Chapter_8/secref.cpp.o
 
@@ -1029,6 +1148,33 @@ Chapter_8/strc_ref.cpp.s:
 	$(MAKE) -f CMakeFiles/strc_ref.dir/build.make CMakeFiles/strc_ref.dir/Chapter_8/strc_ref.cpp.s
 .PHONY : Chapter_8/strc_ref.cpp.s
 
+Chapter_8/strquote.o: Chapter_8/strquote.cpp.o
+
+.PHONY : Chapter_8/strquote.o
+
+# target to build an object file
+Chapter_8/strquote.cpp.o:
+	$(MAKE) -f CMakeFiles/strquote.dir/build.make CMakeFiles/strquote.dir/Chapter_8/strquote.cpp.o
+.PHONY : Chapter_8/strquote.cpp.o
+
+Chapter_8/strquote.i: Chapter_8/strquote.cpp.i
+
+.PHONY : Chapter_8/strquote.i
+
+# target to preprocess a source file
+Chapter_8/strquote.cpp.i:
+	$(MAKE) -f CMakeFiles/strquote.dir/build.make CMakeFiles/strquote.dir/Chapter_8/strquote.cpp.i
+.PHONY : Chapter_8/strquote.cpp.i
+
+Chapter_8/strquote.s: Chapter_8/strquote.cpp.s
+
+.PHONY : Chapter_8/strquote.s
+
+# target to generate assembly for a file
+Chapter_8/strquote.cpp.s:
+	$(MAKE) -f CMakeFiles/strquote.dir/build.make CMakeFiles/strquote.dir/Chapter_8/strquote.cpp.s
+.PHONY : Chapter_8/strquote.cpp.s
+
 Chapter_8/swaps.o: Chapter_8/swaps.cpp.o
 
 .PHONY : Chapter_8/swaps.o
@@ -1055,6 +1201,60 @@ Chapter_8/swaps.s: Chapter_8/swaps.cpp.s
 Chapter_8/swaps.cpp.s:
 	$(MAKE) -f CMakeFiles/swaps.dir/build.make CMakeFiles/swaps.dir/Chapter_8/swaps.cpp.s
 .PHONY : Chapter_8/swaps.cpp.s
+
+Chapter_8/twoswap.o: Chapter_8/twoswap.cpp.o
+
+.PHONY : Chapter_8/twoswap.o
+
+# target to build an object file
+Chapter_8/twoswap.cpp.o:
+	$(MAKE) -f CMakeFiles/twoswap.dir/build.make CMakeFiles/twoswap.dir/Chapter_8/twoswap.cpp.o
+.PHONY : Chapter_8/twoswap.cpp.o
+
+Chapter_8/twoswap.i: Chapter_8/twoswap.cpp.i
+
+.PHONY : Chapter_8/twoswap.i
+
+# target to preprocess a source file
+Chapter_8/twoswap.cpp.i:
+	$(MAKE) -f CMakeFiles/twoswap.dir/build.make CMakeFiles/twoswap.dir/Chapter_8/twoswap.cpp.i
+.PHONY : Chapter_8/twoswap.cpp.i
+
+Chapter_8/twoswap.s: Chapter_8/twoswap.cpp.s
+
+.PHONY : Chapter_8/twoswap.s
+
+# target to generate assembly for a file
+Chapter_8/twoswap.cpp.s:
+	$(MAKE) -f CMakeFiles/twoswap.dir/build.make CMakeFiles/twoswap.dir/Chapter_8/twoswap.cpp.s
+.PHONY : Chapter_8/twoswap.cpp.s
+
+Chapter_8/twotemps.o: Chapter_8/twotemps.cpp.o
+
+.PHONY : Chapter_8/twotemps.o
+
+# target to build an object file
+Chapter_8/twotemps.cpp.o:
+	$(MAKE) -f CMakeFiles/twotemps.dir/build.make CMakeFiles/twotemps.dir/Chapter_8/twotemps.cpp.o
+.PHONY : Chapter_8/twotemps.cpp.o
+
+Chapter_8/twotemps.i: Chapter_8/twotemps.cpp.i
+
+.PHONY : Chapter_8/twotemps.i
+
+# target to preprocess a source file
+Chapter_8/twotemps.cpp.i:
+	$(MAKE) -f CMakeFiles/twotemps.dir/build.make CMakeFiles/twotemps.dir/Chapter_8/twotemps.cpp.i
+.PHONY : Chapter_8/twotemps.cpp.i
+
+Chapter_8/twotemps.s: Chapter_8/twotemps.cpp.s
+
+.PHONY : Chapter_8/twotemps.s
+
+# target to generate assembly for a file
+Chapter_8/twotemps.cpp.s:
+	$(MAKE) -f CMakeFiles/twotemps.dir/build.make CMakeFiles/twotemps.dir/Chapter_8/twotemps.cpp.s
+.PHONY : Chapter_8/twotemps.cpp.s
 
 T1.o: T1.cpp.o
 
@@ -1117,6 +1317,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... funtemp"
+	@echo "... strquote"
 	@echo "... strc_ref"
 	@echo "... swaps"
 	@echo "... secref"
@@ -1124,6 +1326,7 @@ help:
 	@echo "... cubes"
 	@echo "... arrobj"
 	@echo "... strctptr"
+	@echo "... twotemps"
 	@echo "... modulus"
 	@echo "... twoarg"
 	@echo "... Learning_From_Primer_Plus"
@@ -1135,7 +1338,9 @@ help:
 	@echo "... Opp"
 	@echo "... protos"
 	@echo "... calling"
+	@echo "... twoswap"
 	@echo "... lotto"
+	@echo "... left"
 	@echo "... travel"
 	@echo "... init"
 	@echo "... divide"
@@ -1200,18 +1405,33 @@ help:
 	@echo "... Chapter_8/firstref.o"
 	@echo "... Chapter_8/firstref.i"
 	@echo "... Chapter_8/firstref.s"
+	@echo "... Chapter_8/funtemp.o"
+	@echo "... Chapter_8/funtemp.i"
+	@echo "... Chapter_8/funtemp.s"
 	@echo "... Chapter_8/inline.o"
 	@echo "... Chapter_8/inline.i"
 	@echo "... Chapter_8/inline.s"
+	@echo "... Chapter_8/left.o"
+	@echo "... Chapter_8/left.i"
+	@echo "... Chapter_8/left.s"
 	@echo "... Chapter_8/secref.o"
 	@echo "... Chapter_8/secref.i"
 	@echo "... Chapter_8/secref.s"
 	@echo "... Chapter_8/strc_ref.o"
 	@echo "... Chapter_8/strc_ref.i"
 	@echo "... Chapter_8/strc_ref.s"
+	@echo "... Chapter_8/strquote.o"
+	@echo "... Chapter_8/strquote.i"
+	@echo "... Chapter_8/strquote.s"
 	@echo "... Chapter_8/swaps.o"
 	@echo "... Chapter_8/swaps.i"
 	@echo "... Chapter_8/swaps.s"
+	@echo "... Chapter_8/twoswap.o"
+	@echo "... Chapter_8/twoswap.i"
+	@echo "... Chapter_8/twoswap.s"
+	@echo "... Chapter_8/twotemps.o"
+	@echo "... Chapter_8/twotemps.i"
+	@echo "... Chapter_8/twotemps.s"
 	@echo "... T1.o"
 	@echo "... T1.i"
 	@echo "... T1.s"
