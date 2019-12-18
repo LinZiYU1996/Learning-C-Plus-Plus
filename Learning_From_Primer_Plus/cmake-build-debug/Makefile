@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named stock10
+
+# Build rule for target.
+stock10: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stock10
+.PHONY : stock10
+
+# fast build rule for target.
+stock10/fast:
+	$(MAKE) -f CMakeFiles/stock10.dir/build.make CMakeFiles/stock10.dir/build
+.PHONY : stock10/fast
+
+#=============================================================================
 # Target rules for targets named funtemp
 
 # Build rule for target.
@@ -319,6 +332,19 @@ typecast/fast:
 .PHONY : typecast/fast
 
 #=============================================================================
+# Target rules for targets named usestok1
+
+# Build rule for target.
+usestok1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 usestok1
+.PHONY : usestok1
+
+# fast build rule for target.
+usestok1/fast:
+	$(MAKE) -f CMakeFiles/usestok1.dir/build.make CMakeFiles/usestok1.dir/build
+.PHONY : usestok1/fast
+
+#=============================================================================
 # Target rules for targets named firstref
 
 # Build rule for target.
@@ -499,6 +525,60 @@ arrfun4: cmake_check_build_system
 arrfun4/fast:
 	$(MAKE) -f CMakeFiles/arrfun4.dir/build.make CMakeFiles/arrfun4.dir/build
 .PHONY : arrfun4/fast
+
+Chapter_10/Destructors/stock10.o: Chapter_10/Destructors/stock10.cpp.o
+
+.PHONY : Chapter_10/Destructors/stock10.o
+
+# target to build an object file
+Chapter_10/Destructors/stock10.cpp.o:
+	$(MAKE) -f CMakeFiles/stock10.dir/build.make CMakeFiles/stock10.dir/Chapter_10/Destructors/stock10.cpp.o
+.PHONY : Chapter_10/Destructors/stock10.cpp.o
+
+Chapter_10/Destructors/stock10.i: Chapter_10/Destructors/stock10.cpp.i
+
+.PHONY : Chapter_10/Destructors/stock10.i
+
+# target to preprocess a source file
+Chapter_10/Destructors/stock10.cpp.i:
+	$(MAKE) -f CMakeFiles/stock10.dir/build.make CMakeFiles/stock10.dir/Chapter_10/Destructors/stock10.cpp.i
+.PHONY : Chapter_10/Destructors/stock10.cpp.i
+
+Chapter_10/Destructors/stock10.s: Chapter_10/Destructors/stock10.cpp.s
+
+.PHONY : Chapter_10/Destructors/stock10.s
+
+# target to generate assembly for a file
+Chapter_10/Destructors/stock10.cpp.s:
+	$(MAKE) -f CMakeFiles/stock10.dir/build.make CMakeFiles/stock10.dir/Chapter_10/Destructors/stock10.cpp.s
+.PHONY : Chapter_10/Destructors/stock10.cpp.s
+
+Chapter_10/Destructors/usestok1.o: Chapter_10/Destructors/usestok1.cpp.o
+
+.PHONY : Chapter_10/Destructors/usestok1.o
+
+# target to build an object file
+Chapter_10/Destructors/usestok1.cpp.o:
+	$(MAKE) -f CMakeFiles/usestok1.dir/build.make CMakeFiles/usestok1.dir/Chapter_10/Destructors/usestok1.cpp.o
+.PHONY : Chapter_10/Destructors/usestok1.cpp.o
+
+Chapter_10/Destructors/usestok1.i: Chapter_10/Destructors/usestok1.cpp.i
+
+.PHONY : Chapter_10/Destructors/usestok1.i
+
+# target to preprocess a source file
+Chapter_10/Destructors/usestok1.cpp.i:
+	$(MAKE) -f CMakeFiles/usestok1.dir/build.make CMakeFiles/usestok1.dir/Chapter_10/Destructors/usestok1.cpp.i
+.PHONY : Chapter_10/Destructors/usestok1.cpp.i
+
+Chapter_10/Destructors/usestok1.s: Chapter_10/Destructors/usestok1.cpp.s
+
+.PHONY : Chapter_10/Destructors/usestok1.s
+
+# target to generate assembly for a file
+Chapter_10/Destructors/usestok1.cpp.s:
+	$(MAKE) -f CMakeFiles/usestok1.dir/build.make CMakeFiles/usestok1.dir/Chapter_10/Destructors/usestok1.cpp.s
+.PHONY : Chapter_10/Destructors/usestok1.cpp.s
 
 Chapter_3/Opp.o: Chapter_3/Opp.cpp.o
 
@@ -1317,6 +1397,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... stock10"
 	@echo "... funtemp"
 	@echo "... strquote"
 	@echo "... strc_ref"
@@ -1334,6 +1415,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... T1"
 	@echo "... typecast"
+	@echo "... usestok1"
 	@echo "... firstref"
 	@echo "... Opp"
 	@echo "... protos"
@@ -1348,6 +1430,12 @@ help:
 	@echo "... arrfun2"
 	@echo "... T"
 	@echo "... arrfun4"
+	@echo "... Chapter_10/Destructors/stock10.o"
+	@echo "... Chapter_10/Destructors/stock10.i"
+	@echo "... Chapter_10/Destructors/stock10.s"
+	@echo "... Chapter_10/Destructors/usestok1.o"
+	@echo "... Chapter_10/Destructors/usestok1.i"
+	@echo "... Chapter_10/Destructors/usestok1.s"
 	@echo "... Chapter_3/Opp.o"
 	@echo "... Chapter_3/Opp.i"
 	@echo "... Chapter_3/Opp.s"

@@ -51,6 +51,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/stock10.dir/DependInfo.cmake"
   "CMakeFiles/funtemp.dir/DependInfo.cmake"
   "CMakeFiles/strquote.dir/DependInfo.cmake"
   "CMakeFiles/strc_ref.dir/DependInfo.cmake"
@@ -67,6 +68,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/arrfun1.dir/DependInfo.cmake"
   "CMakeFiles/T1.dir/DependInfo.cmake"
   "CMakeFiles/typecast.dir/DependInfo.cmake"
+  "CMakeFiles/usestok1.dir/DependInfo.cmake"
   "CMakeFiles/firstref.dir/DependInfo.cmake"
   "CMakeFiles/Opp.dir/DependInfo.cmake"
   "CMakeFiles/protos.dir/DependInfo.cmake"
