@@ -34,5 +34,6 @@ add_executable(left Chapter_8/left.cpp)
 add_executable(funtemp Chapter_8/funtemp.cpp)
 add_executable(twotemps Chapter_8/twotemps.cpp)
 add_executable(twoswap Chapter_8/twoswap.cpp)
-add_executable(usestok1 Chapter_10/Destructors/usestok1.cpp)
+add_executable(usestok1 Chapter_10/Destructors/usestok1.cpp Chapter_10/Destructors/Test.cpp)
 add_executable(stock10 Chapter_10/Destructors/stock10.cpp)
+#file(GLOB_RECURSE SOURCES /*.cpp) #*/

@@ -1,1 +1,1 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/usestok1.dir/Chapter_10/Destructors/usestok1.cpp.o  -o usestok1.exe -Wl,--out-implib,libusestok1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/usestok1.dir/Chapter_10/Destructors/usestok1.cpp.o CMakeFiles/usestok1.dir/Chapter_10/Destructors/Test.cpp.o  -o usestok1.exe -Wl,--out-implib,libusestok1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

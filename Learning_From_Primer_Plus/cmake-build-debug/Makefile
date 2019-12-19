@@ -526,6 +526,33 @@ arrfun4/fast:
 	$(MAKE) -f CMakeFiles/arrfun4.dir/build.make CMakeFiles/arrfun4.dir/build
 .PHONY : arrfun4/fast
 
+Chapter_10/Destructors/Test.o: Chapter_10/Destructors/Test.cpp.o
+
+.PHONY : Chapter_10/Destructors/Test.o
+
+# target to build an object file
+Chapter_10/Destructors/Test.cpp.o:
+	$(MAKE) -f CMakeFiles/usestok1.dir/build.make CMakeFiles/usestok1.dir/Chapter_10/Destructors/Test.cpp.o
+.PHONY : Chapter_10/Destructors/Test.cpp.o
+
+Chapter_10/Destructors/Test.i: Chapter_10/Destructors/Test.cpp.i
+
+.PHONY : Chapter_10/Destructors/Test.i
+
+# target to preprocess a source file
+Chapter_10/Destructors/Test.cpp.i:
+	$(MAKE) -f CMakeFiles/usestok1.dir/build.make CMakeFiles/usestok1.dir/Chapter_10/Destructors/Test.cpp.i
+.PHONY : Chapter_10/Destructors/Test.cpp.i
+
+Chapter_10/Destructors/Test.s: Chapter_10/Destructors/Test.cpp.s
+
+.PHONY : Chapter_10/Destructors/Test.s
+
+# target to generate assembly for a file
+Chapter_10/Destructors/Test.cpp.s:
+	$(MAKE) -f CMakeFiles/usestok1.dir/build.make CMakeFiles/usestok1.dir/Chapter_10/Destructors/Test.cpp.s
+.PHONY : Chapter_10/Destructors/Test.cpp.s
+
 Chapter_10/Destructors/stock10.o: Chapter_10/Destructors/stock10.cpp.o
 
 .PHONY : Chapter_10/Destructors/stock10.o
@@ -1430,6 +1457,9 @@ help:
 	@echo "... arrfun2"
 	@echo "... T"
 	@echo "... arrfun4"
+	@echo "... Chapter_10/Destructors/Test.o"
+	@echo "... Chapter_10/Destructors/Test.i"
+	@echo "... Chapter_10/Destructors/Test.s"
 	@echo "... Chapter_10/Destructors/stock10.o"
 	@echo "... Chapter_10/Destructors/stock10.i"
 	@echo "... Chapter_10/Destructors/stock10.s"
