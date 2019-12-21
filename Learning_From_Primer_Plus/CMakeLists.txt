@@ -35,5 +35,10 @@ add_executable(funtemp Chapter_8/funtemp.cpp)
 add_executable(twotemps Chapter_8/twotemps.cpp)
 add_executable(twoswap Chapter_8/twoswap.cpp)
 add_executable(usestok1 Chapter_10/Destructors/usestok1.cpp Chapter_10/Destructors/Test.cpp)
-add_executable(stock10 Chapter_10/Destructors/stock10.cpp)
+#add_executable(stock10 Chapter_10/Destructors/stock10.cpp)
 #file(GLOB_RECURSE SOURCES /*.cpp) #*/
+
+add_executable(file1 Chapter_9/9.1/file1.cpp Chapter_9/9.1/file2.cpp)
+add_executable(autoscp Chapter_9/9.2/9.2.2/autoscp.cpp)
+add_executable(external Chapter_9/9.2/9.2.3/external.cpp Chapter_9/9.2/9.2.3/support.cpp)
+add_executable(newplace Chapter_9/9.2/9.2.10/newplace.cpp)

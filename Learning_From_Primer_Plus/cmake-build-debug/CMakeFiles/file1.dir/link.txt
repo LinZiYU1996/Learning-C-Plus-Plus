@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/file1.dir/Chapter_9/9.1/file1.cpp.o CMakeFiles/file1.dir/Chapter_9/9.1/file2.cpp.o  -o file1.exe -Wl,--out-implib,libfile1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
