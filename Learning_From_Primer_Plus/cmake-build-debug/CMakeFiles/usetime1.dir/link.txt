@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/usetime1.dir/Chapter_11/11.2/11.2.1/usetime1.cpp.o CMakeFiles/usetime1.dir/Chapter_11/11.2/11.2.1/mytime1.cpp.o  -o usetime1.exe -Wl,--out-implib,libusetime1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

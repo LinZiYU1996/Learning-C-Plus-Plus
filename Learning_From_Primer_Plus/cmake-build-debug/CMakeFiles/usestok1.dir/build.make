@@ -57,42 +57,42 @@ include CMakeFiles/usestok1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/usestok1.dir/flags.make
 
-CMakeFiles/usestok1.dir/Chapter_10/Destructors/usestok1.cpp.o: CMakeFiles/usestok1.dir/flags.make
-CMakeFiles/usestok1.dir/Chapter_10/Destructors/usestok1.cpp.o: ../Chapter_10/Destructors/usestok1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/usestok1.dir/Chapter_10/Destructors/usestok1.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/usestok1.dir/Chapter_10/Destructors/usestok1.cpp.o -c /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/Chapter_10/Destructors/usestok1.cpp
+CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/usestok1.cpp.o: CMakeFiles/usestok1.dir/flags.make
+CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/usestok1.cpp.o: ../Chapter_10/10.3/10.3.5/usestok1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/usestok1.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/usestok1.cpp.o -c /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/Chapter_10/10.3/10.3.5/usestok1.cpp
 
-CMakeFiles/usestok1.dir/Chapter_10/Destructors/usestok1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/usestok1.dir/Chapter_10/Destructors/usestok1.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/Chapter_10/Destructors/usestok1.cpp > CMakeFiles/usestok1.dir/Chapter_10/Destructors/usestok1.cpp.i
+CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/usestok1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/usestok1.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/Chapter_10/10.3/10.3.5/usestok1.cpp > CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/usestok1.cpp.i
 
-CMakeFiles/usestok1.dir/Chapter_10/Destructors/usestok1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/usestok1.dir/Chapter_10/Destructors/usestok1.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/Chapter_10/Destructors/usestok1.cpp -o CMakeFiles/usestok1.dir/Chapter_10/Destructors/usestok1.cpp.s
+CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/usestok1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/usestok1.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/Chapter_10/10.3/10.3.5/usestok1.cpp -o CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/usestok1.cpp.s
 
-CMakeFiles/usestok1.dir/Chapter_10/Destructors/Test.cpp.o: CMakeFiles/usestok1.dir/flags.make
-CMakeFiles/usestok1.dir/Chapter_10/Destructors/Test.cpp.o: ../Chapter_10/Destructors/Test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/usestok1.dir/Chapter_10/Destructors/Test.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/usestok1.dir/Chapter_10/Destructors/Test.cpp.o -c /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/Chapter_10/Destructors/Test.cpp
+CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/stock10.cpp.o: CMakeFiles/usestok1.dir/flags.make
+CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/stock10.cpp.o: ../Chapter_10/10.3/10.3.5/stock10.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/stock10.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/stock10.cpp.o -c /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/Chapter_10/10.3/10.3.5/stock10.cpp
 
-CMakeFiles/usestok1.dir/Chapter_10/Destructors/Test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/usestok1.dir/Chapter_10/Destructors/Test.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/Chapter_10/Destructors/Test.cpp > CMakeFiles/usestok1.dir/Chapter_10/Destructors/Test.cpp.i
+CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/stock10.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/stock10.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/Chapter_10/10.3/10.3.5/stock10.cpp > CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/stock10.cpp.i
 
-CMakeFiles/usestok1.dir/Chapter_10/Destructors/Test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/usestok1.dir/Chapter_10/Destructors/Test.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/Chapter_10/Destructors/Test.cpp -o CMakeFiles/usestok1.dir/Chapter_10/Destructors/Test.cpp.s
+CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/stock10.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/stock10.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/Chapter_10/10.3/10.3.5/stock10.cpp -o CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/stock10.cpp.s
 
 # Object files for target usestok1
 usestok1_OBJECTS = \
-"CMakeFiles/usestok1.dir/Chapter_10/Destructors/usestok1.cpp.o" \
-"CMakeFiles/usestok1.dir/Chapter_10/Destructors/Test.cpp.o"
+"CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/usestok1.cpp.o" \
+"CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/stock10.cpp.o"
 
 # External object files for target usestok1
 usestok1_EXTERNAL_OBJECTS =
 
-usestok1.exe: CMakeFiles/usestok1.dir/Chapter_10/Destructors/usestok1.cpp.o
-usestok1.exe: CMakeFiles/usestok1.dir/Chapter_10/Destructors/Test.cpp.o
+usestok1.exe: CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/usestok1.cpp.o
+usestok1.exe: CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/stock10.cpp.o
 usestok1.exe: CMakeFiles/usestok1.dir/build.make
 usestok1.exe: CMakeFiles/usestok1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable usestok1.exe"

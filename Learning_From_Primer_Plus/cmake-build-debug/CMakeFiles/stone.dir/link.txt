@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/stone.dir/Chapter_11/11.6/stone.cpp.o CMakeFiles/stone.dir/Chapter_11/11.6/stonewt.cpp.o  -o stone.exe -Wl,--out-implib,libstone.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

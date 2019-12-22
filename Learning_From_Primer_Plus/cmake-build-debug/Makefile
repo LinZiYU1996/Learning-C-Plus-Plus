@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named stone
+
+# Build rule for target.
+stone: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stone
+.PHONY : stone
+
+# fast build rule for target.
+stone/fast:
+	$(MAKE) -f CMakeFiles/stone.dir/build.make CMakeFiles/stone.dir/build
+.PHONY : stone/fast
+
+#=============================================================================
+# Target rules for targets named stacker
+
+# Build rule for target.
+stacker: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stacker
+.PHONY : stacker
+
+# fast build rule for target.
+stacker/fast:
+	$(MAKE) -f CMakeFiles/stacker.dir/build.make CMakeFiles/stacker.dir/build
+.PHONY : stacker/fast
+
+#=============================================================================
 # Target rules for targets named arrfun4
 
 # Build rule for target.
@@ -202,6 +228,19 @@ autoscp/fast:
 .PHONY : autoscp/fast
 
 #=============================================================================
+# Target rules for targets named usestok0
+
+# Build rule for target.
+usestok0: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 usestok0
+.PHONY : usestok0
+
+# fast build rule for target.
+usestok0/fast:
+	$(MAKE) -f CMakeFiles/usestok0.dir/build.make CMakeFiles/usestok0.dir/build
+.PHONY : usestok0/fast
+
+#=============================================================================
 # Target rules for targets named twoswap
 
 # Build rule for target.
@@ -241,6 +280,19 @@ calling/fast:
 .PHONY : calling/fast
 
 #=============================================================================
+# Target rules for targets named usetime0
+
+# Build rule for target.
+usetime0: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 usetime0
+.PHONY : usetime0
+
+# fast build rule for target.
+usetime0/fast:
+	$(MAKE) -f CMakeFiles/usetime0.dir/build.make CMakeFiles/usetime0.dir/build
+.PHONY : usetime0/fast
+
+#=============================================================================
 # Target rules for targets named protos
 
 # Build rule for target.
@@ -254,6 +306,19 @@ protos/fast:
 .PHONY : protos/fast
 
 #=============================================================================
+# Target rules for targets named Opp
+
+# Build rule for target.
+Opp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Opp
+.PHONY : Opp
+
+# fast build rule for target.
+Opp/fast:
+	$(MAKE) -f CMakeFiles/Opp.dir/build.make CMakeFiles/Opp.dir/build
+.PHONY : Opp/fast
+
+#=============================================================================
 # Target rules for targets named firstref
 
 # Build rule for target.
@@ -265,6 +330,19 @@ firstref: cmake_check_build_system
 firstref/fast:
 	$(MAKE) -f CMakeFiles/firstref.dir/build.make CMakeFiles/firstref.dir/build
 .PHONY : firstref/fast
+
+#=============================================================================
+# Target rules for targets named usetime3
+
+# Build rule for target.
+usetime3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 usetime3
+.PHONY : usetime3
+
+# fast build rule for target.
+usetime3/fast:
+	$(MAKE) -f CMakeFiles/usetime3.dir/build.make CMakeFiles/usetime3.dir/build
+.PHONY : usetime3/fast
 
 #=============================================================================
 # Target rules for targets named usestok1
@@ -449,6 +527,19 @@ secref/fast:
 .PHONY : secref/fast
 
 #=============================================================================
+# Target rules for targets named usetime2
+
+# Build rule for target.
+usetime2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 usetime2
+.PHONY : usetime2
+
+# fast build rule for target.
+usetime2/fast:
+	$(MAKE) -f CMakeFiles/usetime2.dir/build.make CMakeFiles/usetime2.dir/build
+.PHONY : usetime2/fast
+
+#=============================================================================
 # Target rules for targets named swaps
 
 # Build rule for target.
@@ -460,6 +551,19 @@ swaps: cmake_check_build_system
 swaps/fast:
 	$(MAKE) -f CMakeFiles/swaps.dir/build.make CMakeFiles/swaps.dir/build
 .PHONY : swaps/fast
+
+#=============================================================================
+# Target rules for targets named usetime1
+
+# Build rule for target.
+usetime1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 usetime1
+.PHONY : usetime1
+
+# fast build rule for target.
+usetime1/fast:
+	$(MAKE) -f CMakeFiles/usetime1.dir/build.make CMakeFiles/usetime1.dir/build
+.PHONY : usetime1/fast
 
 #=============================================================================
 # Target rules for targets named strc_ref
@@ -552,72 +656,437 @@ external/fast:
 	$(MAKE) -f CMakeFiles/external.dir/build.make CMakeFiles/external.dir/build
 .PHONY : external/fast
 
-#=============================================================================
-# Target rules for targets named Opp
+Chapter_10/10.2/10.2.2/stock00.o: Chapter_10/10.2/10.2.2/stock00.cpp.o
 
-# Build rule for target.
-Opp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Opp
-.PHONY : Opp
-
-# fast build rule for target.
-Opp/fast:
-	$(MAKE) -f CMakeFiles/Opp.dir/build.make CMakeFiles/Opp.dir/build
-.PHONY : Opp/fast
-
-Chapter_10/Destructors/Test.o: Chapter_10/Destructors/Test.cpp.o
-
-.PHONY : Chapter_10/Destructors/Test.o
+.PHONY : Chapter_10/10.2/10.2.2/stock00.o
 
 # target to build an object file
-Chapter_10/Destructors/Test.cpp.o:
-	$(MAKE) -f CMakeFiles/usestok1.dir/build.make CMakeFiles/usestok1.dir/Chapter_10/Destructors/Test.cpp.o
-.PHONY : Chapter_10/Destructors/Test.cpp.o
+Chapter_10/10.2/10.2.2/stock00.cpp.o:
+	$(MAKE) -f CMakeFiles/usestok0.dir/build.make CMakeFiles/usestok0.dir/Chapter_10/10.2/10.2.2/stock00.cpp.o
+.PHONY : Chapter_10/10.2/10.2.2/stock00.cpp.o
 
-Chapter_10/Destructors/Test.i: Chapter_10/Destructors/Test.cpp.i
+Chapter_10/10.2/10.2.2/stock00.i: Chapter_10/10.2/10.2.2/stock00.cpp.i
 
-.PHONY : Chapter_10/Destructors/Test.i
+.PHONY : Chapter_10/10.2/10.2.2/stock00.i
 
 # target to preprocess a source file
-Chapter_10/Destructors/Test.cpp.i:
-	$(MAKE) -f CMakeFiles/usestok1.dir/build.make CMakeFiles/usestok1.dir/Chapter_10/Destructors/Test.cpp.i
-.PHONY : Chapter_10/Destructors/Test.cpp.i
+Chapter_10/10.2/10.2.2/stock00.cpp.i:
+	$(MAKE) -f CMakeFiles/usestok0.dir/build.make CMakeFiles/usestok0.dir/Chapter_10/10.2/10.2.2/stock00.cpp.i
+.PHONY : Chapter_10/10.2/10.2.2/stock00.cpp.i
 
-Chapter_10/Destructors/Test.s: Chapter_10/Destructors/Test.cpp.s
+Chapter_10/10.2/10.2.2/stock00.s: Chapter_10/10.2/10.2.2/stock00.cpp.s
 
-.PHONY : Chapter_10/Destructors/Test.s
+.PHONY : Chapter_10/10.2/10.2.2/stock00.s
 
 # target to generate assembly for a file
-Chapter_10/Destructors/Test.cpp.s:
-	$(MAKE) -f CMakeFiles/usestok1.dir/build.make CMakeFiles/usestok1.dir/Chapter_10/Destructors/Test.cpp.s
-.PHONY : Chapter_10/Destructors/Test.cpp.s
+Chapter_10/10.2/10.2.2/stock00.cpp.s:
+	$(MAKE) -f CMakeFiles/usestok0.dir/build.make CMakeFiles/usestok0.dir/Chapter_10/10.2/10.2.2/stock00.cpp.s
+.PHONY : Chapter_10/10.2/10.2.2/stock00.cpp.s
 
-Chapter_10/Destructors/usestok1.o: Chapter_10/Destructors/usestok1.cpp.o
+Chapter_10/10.2/10.2.2/usestok0.o: Chapter_10/10.2/10.2.2/usestok0.cpp.o
 
-.PHONY : Chapter_10/Destructors/usestok1.o
+.PHONY : Chapter_10/10.2/10.2.2/usestok0.o
 
 # target to build an object file
-Chapter_10/Destructors/usestok1.cpp.o:
-	$(MAKE) -f CMakeFiles/usestok1.dir/build.make CMakeFiles/usestok1.dir/Chapter_10/Destructors/usestok1.cpp.o
-.PHONY : Chapter_10/Destructors/usestok1.cpp.o
+Chapter_10/10.2/10.2.2/usestok0.cpp.o:
+	$(MAKE) -f CMakeFiles/usestok0.dir/build.make CMakeFiles/usestok0.dir/Chapter_10/10.2/10.2.2/usestok0.cpp.o
+.PHONY : Chapter_10/10.2/10.2.2/usestok0.cpp.o
 
-Chapter_10/Destructors/usestok1.i: Chapter_10/Destructors/usestok1.cpp.i
+Chapter_10/10.2/10.2.2/usestok0.i: Chapter_10/10.2/10.2.2/usestok0.cpp.i
 
-.PHONY : Chapter_10/Destructors/usestok1.i
+.PHONY : Chapter_10/10.2/10.2.2/usestok0.i
 
 # target to preprocess a source file
-Chapter_10/Destructors/usestok1.cpp.i:
-	$(MAKE) -f CMakeFiles/usestok1.dir/build.make CMakeFiles/usestok1.dir/Chapter_10/Destructors/usestok1.cpp.i
-.PHONY : Chapter_10/Destructors/usestok1.cpp.i
+Chapter_10/10.2/10.2.2/usestok0.cpp.i:
+	$(MAKE) -f CMakeFiles/usestok0.dir/build.make CMakeFiles/usestok0.dir/Chapter_10/10.2/10.2.2/usestok0.cpp.i
+.PHONY : Chapter_10/10.2/10.2.2/usestok0.cpp.i
 
-Chapter_10/Destructors/usestok1.s: Chapter_10/Destructors/usestok1.cpp.s
+Chapter_10/10.2/10.2.2/usestok0.s: Chapter_10/10.2/10.2.2/usestok0.cpp.s
 
-.PHONY : Chapter_10/Destructors/usestok1.s
+.PHONY : Chapter_10/10.2/10.2.2/usestok0.s
 
 # target to generate assembly for a file
-Chapter_10/Destructors/usestok1.cpp.s:
-	$(MAKE) -f CMakeFiles/usestok1.dir/build.make CMakeFiles/usestok1.dir/Chapter_10/Destructors/usestok1.cpp.s
-.PHONY : Chapter_10/Destructors/usestok1.cpp.s
+Chapter_10/10.2/10.2.2/usestok0.cpp.s:
+	$(MAKE) -f CMakeFiles/usestok0.dir/build.make CMakeFiles/usestok0.dir/Chapter_10/10.2/10.2.2/usestok0.cpp.s
+.PHONY : Chapter_10/10.2/10.2.2/usestok0.cpp.s
+
+Chapter_10/10.3/10.3.5/stock10.o: Chapter_10/10.3/10.3.5/stock10.cpp.o
+
+.PHONY : Chapter_10/10.3/10.3.5/stock10.o
+
+# target to build an object file
+Chapter_10/10.3/10.3.5/stock10.cpp.o:
+	$(MAKE) -f CMakeFiles/usestok1.dir/build.make CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/stock10.cpp.o
+.PHONY : Chapter_10/10.3/10.3.5/stock10.cpp.o
+
+Chapter_10/10.3/10.3.5/stock10.i: Chapter_10/10.3/10.3.5/stock10.cpp.i
+
+.PHONY : Chapter_10/10.3/10.3.5/stock10.i
+
+# target to preprocess a source file
+Chapter_10/10.3/10.3.5/stock10.cpp.i:
+	$(MAKE) -f CMakeFiles/usestok1.dir/build.make CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/stock10.cpp.i
+.PHONY : Chapter_10/10.3/10.3.5/stock10.cpp.i
+
+Chapter_10/10.3/10.3.5/stock10.s: Chapter_10/10.3/10.3.5/stock10.cpp.s
+
+.PHONY : Chapter_10/10.3/10.3.5/stock10.s
+
+# target to generate assembly for a file
+Chapter_10/10.3/10.3.5/stock10.cpp.s:
+	$(MAKE) -f CMakeFiles/usestok1.dir/build.make CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/stock10.cpp.s
+.PHONY : Chapter_10/10.3/10.3.5/stock10.cpp.s
+
+Chapter_10/10.3/10.3.5/usestok1.o: Chapter_10/10.3/10.3.5/usestok1.cpp.o
+
+.PHONY : Chapter_10/10.3/10.3.5/usestok1.o
+
+# target to build an object file
+Chapter_10/10.3/10.3.5/usestok1.cpp.o:
+	$(MAKE) -f CMakeFiles/usestok1.dir/build.make CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/usestok1.cpp.o
+.PHONY : Chapter_10/10.3/10.3.5/usestok1.cpp.o
+
+Chapter_10/10.3/10.3.5/usestok1.i: Chapter_10/10.3/10.3.5/usestok1.cpp.i
+
+.PHONY : Chapter_10/10.3/10.3.5/usestok1.i
+
+# target to preprocess a source file
+Chapter_10/10.3/10.3.5/usestok1.cpp.i:
+	$(MAKE) -f CMakeFiles/usestok1.dir/build.make CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/usestok1.cpp.i
+.PHONY : Chapter_10/10.3/10.3.5/usestok1.cpp.i
+
+Chapter_10/10.3/10.3.5/usestok1.s: Chapter_10/10.3/10.3.5/usestok1.cpp.s
+
+.PHONY : Chapter_10/10.3/10.3.5/usestok1.s
+
+# target to generate assembly for a file
+Chapter_10/10.3/10.3.5/usestok1.cpp.s:
+	$(MAKE) -f CMakeFiles/usestok1.dir/build.make CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/usestok1.cpp.s
+.PHONY : Chapter_10/10.3/10.3.5/usestok1.cpp.s
+
+Chapter_10/10.7/stack.o: Chapter_10/10.7/stack.cpp.o
+
+.PHONY : Chapter_10/10.7/stack.o
+
+# target to build an object file
+Chapter_10/10.7/stack.cpp.o:
+	$(MAKE) -f CMakeFiles/stacker.dir/build.make CMakeFiles/stacker.dir/Chapter_10/10.7/stack.cpp.o
+.PHONY : Chapter_10/10.7/stack.cpp.o
+
+Chapter_10/10.7/stack.i: Chapter_10/10.7/stack.cpp.i
+
+.PHONY : Chapter_10/10.7/stack.i
+
+# target to preprocess a source file
+Chapter_10/10.7/stack.cpp.i:
+	$(MAKE) -f CMakeFiles/stacker.dir/build.make CMakeFiles/stacker.dir/Chapter_10/10.7/stack.cpp.i
+.PHONY : Chapter_10/10.7/stack.cpp.i
+
+Chapter_10/10.7/stack.s: Chapter_10/10.7/stack.cpp.s
+
+.PHONY : Chapter_10/10.7/stack.s
+
+# target to generate assembly for a file
+Chapter_10/10.7/stack.cpp.s:
+	$(MAKE) -f CMakeFiles/stacker.dir/build.make CMakeFiles/stacker.dir/Chapter_10/10.7/stack.cpp.s
+.PHONY : Chapter_10/10.7/stack.cpp.s
+
+Chapter_10/10.7/stacker.o: Chapter_10/10.7/stacker.cpp.o
+
+.PHONY : Chapter_10/10.7/stacker.o
+
+# target to build an object file
+Chapter_10/10.7/stacker.cpp.o:
+	$(MAKE) -f CMakeFiles/stacker.dir/build.make CMakeFiles/stacker.dir/Chapter_10/10.7/stacker.cpp.o
+.PHONY : Chapter_10/10.7/stacker.cpp.o
+
+Chapter_10/10.7/stacker.i: Chapter_10/10.7/stacker.cpp.i
+
+.PHONY : Chapter_10/10.7/stacker.i
+
+# target to preprocess a source file
+Chapter_10/10.7/stacker.cpp.i:
+	$(MAKE) -f CMakeFiles/stacker.dir/build.make CMakeFiles/stacker.dir/Chapter_10/10.7/stacker.cpp.i
+.PHONY : Chapter_10/10.7/stacker.cpp.i
+
+Chapter_10/10.7/stacker.s: Chapter_10/10.7/stacker.cpp.s
+
+.PHONY : Chapter_10/10.7/stacker.s
+
+# target to generate assembly for a file
+Chapter_10/10.7/stacker.cpp.s:
+	$(MAKE) -f CMakeFiles/stacker.dir/build.make CMakeFiles/stacker.dir/Chapter_10/10.7/stacker.cpp.s
+.PHONY : Chapter_10/10.7/stacker.cpp.s
+
+Chapter_11/11.2/11.2.1/mytime1.o: Chapter_11/11.2/11.2.1/mytime1.cpp.o
+
+.PHONY : Chapter_11/11.2/11.2.1/mytime1.o
+
+# target to build an object file
+Chapter_11/11.2/11.2.1/mytime1.cpp.o:
+	$(MAKE) -f CMakeFiles/usetime1.dir/build.make CMakeFiles/usetime1.dir/Chapter_11/11.2/11.2.1/mytime1.cpp.o
+.PHONY : Chapter_11/11.2/11.2.1/mytime1.cpp.o
+
+Chapter_11/11.2/11.2.1/mytime1.i: Chapter_11/11.2/11.2.1/mytime1.cpp.i
+
+.PHONY : Chapter_11/11.2/11.2.1/mytime1.i
+
+# target to preprocess a source file
+Chapter_11/11.2/11.2.1/mytime1.cpp.i:
+	$(MAKE) -f CMakeFiles/usetime1.dir/build.make CMakeFiles/usetime1.dir/Chapter_11/11.2/11.2.1/mytime1.cpp.i
+.PHONY : Chapter_11/11.2/11.2.1/mytime1.cpp.i
+
+Chapter_11/11.2/11.2.1/mytime1.s: Chapter_11/11.2/11.2.1/mytime1.cpp.s
+
+.PHONY : Chapter_11/11.2/11.2.1/mytime1.s
+
+# target to generate assembly for a file
+Chapter_11/11.2/11.2.1/mytime1.cpp.s:
+	$(MAKE) -f CMakeFiles/usetime1.dir/build.make CMakeFiles/usetime1.dir/Chapter_11/11.2/11.2.1/mytime1.cpp.s
+.PHONY : Chapter_11/11.2/11.2.1/mytime1.cpp.s
+
+Chapter_11/11.2/11.2.1/usetime1.o: Chapter_11/11.2/11.2.1/usetime1.cpp.o
+
+.PHONY : Chapter_11/11.2/11.2.1/usetime1.o
+
+# target to build an object file
+Chapter_11/11.2/11.2.1/usetime1.cpp.o:
+	$(MAKE) -f CMakeFiles/usetime1.dir/build.make CMakeFiles/usetime1.dir/Chapter_11/11.2/11.2.1/usetime1.cpp.o
+.PHONY : Chapter_11/11.2/11.2.1/usetime1.cpp.o
+
+Chapter_11/11.2/11.2.1/usetime1.i: Chapter_11/11.2/11.2.1/usetime1.cpp.i
+
+.PHONY : Chapter_11/11.2/11.2.1/usetime1.i
+
+# target to preprocess a source file
+Chapter_11/11.2/11.2.1/usetime1.cpp.i:
+	$(MAKE) -f CMakeFiles/usetime1.dir/build.make CMakeFiles/usetime1.dir/Chapter_11/11.2/11.2.1/usetime1.cpp.i
+.PHONY : Chapter_11/11.2/11.2.1/usetime1.cpp.i
+
+Chapter_11/11.2/11.2.1/usetime1.s: Chapter_11/11.2/11.2.1/usetime1.cpp.s
+
+.PHONY : Chapter_11/11.2/11.2.1/usetime1.s
+
+# target to generate assembly for a file
+Chapter_11/11.2/11.2.1/usetime1.cpp.s:
+	$(MAKE) -f CMakeFiles/usetime1.dir/build.make CMakeFiles/usetime1.dir/Chapter_11/11.2/11.2.1/usetime1.cpp.s
+.PHONY : Chapter_11/11.2/11.2.1/usetime1.cpp.s
+
+Chapter_11/11.2/11.2.3/mytime2.o: Chapter_11/11.2/11.2.3/mytime2.cpp.o
+
+.PHONY : Chapter_11/11.2/11.2.3/mytime2.o
+
+# target to build an object file
+Chapter_11/11.2/11.2.3/mytime2.cpp.o:
+	$(MAKE) -f CMakeFiles/usetime2.dir/build.make CMakeFiles/usetime2.dir/Chapter_11/11.2/11.2.3/mytime2.cpp.o
+.PHONY : Chapter_11/11.2/11.2.3/mytime2.cpp.o
+
+Chapter_11/11.2/11.2.3/mytime2.i: Chapter_11/11.2/11.2.3/mytime2.cpp.i
+
+.PHONY : Chapter_11/11.2/11.2.3/mytime2.i
+
+# target to preprocess a source file
+Chapter_11/11.2/11.2.3/mytime2.cpp.i:
+	$(MAKE) -f CMakeFiles/usetime2.dir/build.make CMakeFiles/usetime2.dir/Chapter_11/11.2/11.2.3/mytime2.cpp.i
+.PHONY : Chapter_11/11.2/11.2.3/mytime2.cpp.i
+
+Chapter_11/11.2/11.2.3/mytime2.s: Chapter_11/11.2/11.2.3/mytime2.cpp.s
+
+.PHONY : Chapter_11/11.2/11.2.3/mytime2.s
+
+# target to generate assembly for a file
+Chapter_11/11.2/11.2.3/mytime2.cpp.s:
+	$(MAKE) -f CMakeFiles/usetime2.dir/build.make CMakeFiles/usetime2.dir/Chapter_11/11.2/11.2.3/mytime2.cpp.s
+.PHONY : Chapter_11/11.2/11.2.3/mytime2.cpp.s
+
+Chapter_11/11.2/11.2.3/usetime2.o: Chapter_11/11.2/11.2.3/usetime2.cpp.o
+
+.PHONY : Chapter_11/11.2/11.2.3/usetime2.o
+
+# target to build an object file
+Chapter_11/11.2/11.2.3/usetime2.cpp.o:
+	$(MAKE) -f CMakeFiles/usetime2.dir/build.make CMakeFiles/usetime2.dir/Chapter_11/11.2/11.2.3/usetime2.cpp.o
+.PHONY : Chapter_11/11.2/11.2.3/usetime2.cpp.o
+
+Chapter_11/11.2/11.2.3/usetime2.i: Chapter_11/11.2/11.2.3/usetime2.cpp.i
+
+.PHONY : Chapter_11/11.2/11.2.3/usetime2.i
+
+# target to preprocess a source file
+Chapter_11/11.2/11.2.3/usetime2.cpp.i:
+	$(MAKE) -f CMakeFiles/usetime2.dir/build.make CMakeFiles/usetime2.dir/Chapter_11/11.2/11.2.3/usetime2.cpp.i
+.PHONY : Chapter_11/11.2/11.2.3/usetime2.cpp.i
+
+Chapter_11/11.2/11.2.3/usetime2.s: Chapter_11/11.2/11.2.3/usetime2.cpp.s
+
+.PHONY : Chapter_11/11.2/11.2.3/usetime2.s
+
+# target to generate assembly for a file
+Chapter_11/11.2/11.2.3/usetime2.cpp.s:
+	$(MAKE) -f CMakeFiles/usetime2.dir/build.make CMakeFiles/usetime2.dir/Chapter_11/11.2/11.2.3/usetime2.cpp.s
+.PHONY : Chapter_11/11.2/11.2.3/usetime2.cpp.s
+
+Chapter_11/11.2/mytime0.o: Chapter_11/11.2/mytime0.cpp.o
+
+.PHONY : Chapter_11/11.2/mytime0.o
+
+# target to build an object file
+Chapter_11/11.2/mytime0.cpp.o:
+	$(MAKE) -f CMakeFiles/usetime0.dir/build.make CMakeFiles/usetime0.dir/Chapter_11/11.2/mytime0.cpp.o
+.PHONY : Chapter_11/11.2/mytime0.cpp.o
+
+Chapter_11/11.2/mytime0.i: Chapter_11/11.2/mytime0.cpp.i
+
+.PHONY : Chapter_11/11.2/mytime0.i
+
+# target to preprocess a source file
+Chapter_11/11.2/mytime0.cpp.i:
+	$(MAKE) -f CMakeFiles/usetime0.dir/build.make CMakeFiles/usetime0.dir/Chapter_11/11.2/mytime0.cpp.i
+.PHONY : Chapter_11/11.2/mytime0.cpp.i
+
+Chapter_11/11.2/mytime0.s: Chapter_11/11.2/mytime0.cpp.s
+
+.PHONY : Chapter_11/11.2/mytime0.s
+
+# target to generate assembly for a file
+Chapter_11/11.2/mytime0.cpp.s:
+	$(MAKE) -f CMakeFiles/usetime0.dir/build.make CMakeFiles/usetime0.dir/Chapter_11/11.2/mytime0.cpp.s
+.PHONY : Chapter_11/11.2/mytime0.cpp.s
+
+Chapter_11/11.2/usetime0.o: Chapter_11/11.2/usetime0.cpp.o
+
+.PHONY : Chapter_11/11.2/usetime0.o
+
+# target to build an object file
+Chapter_11/11.2/usetime0.cpp.o:
+	$(MAKE) -f CMakeFiles/usetime0.dir/build.make CMakeFiles/usetime0.dir/Chapter_11/11.2/usetime0.cpp.o
+.PHONY : Chapter_11/11.2/usetime0.cpp.o
+
+Chapter_11/11.2/usetime0.i: Chapter_11/11.2/usetime0.cpp.i
+
+.PHONY : Chapter_11/11.2/usetime0.i
+
+# target to preprocess a source file
+Chapter_11/11.2/usetime0.cpp.i:
+	$(MAKE) -f CMakeFiles/usetime0.dir/build.make CMakeFiles/usetime0.dir/Chapter_11/11.2/usetime0.cpp.i
+.PHONY : Chapter_11/11.2/usetime0.cpp.i
+
+Chapter_11/11.2/usetime0.s: Chapter_11/11.2/usetime0.cpp.s
+
+.PHONY : Chapter_11/11.2/usetime0.s
+
+# target to generate assembly for a file
+Chapter_11/11.2/usetime0.cpp.s:
+	$(MAKE) -f CMakeFiles/usetime0.dir/build.make CMakeFiles/usetime0.dir/Chapter_11/11.2/usetime0.cpp.s
+.PHONY : Chapter_11/11.2/usetime0.cpp.s
+
+Chapter_11/11.3/mytime3.o: Chapter_11/11.3/mytime3.cpp.o
+
+.PHONY : Chapter_11/11.3/mytime3.o
+
+# target to build an object file
+Chapter_11/11.3/mytime3.cpp.o:
+	$(MAKE) -f CMakeFiles/usetime3.dir/build.make CMakeFiles/usetime3.dir/Chapter_11/11.3/mytime3.cpp.o
+.PHONY : Chapter_11/11.3/mytime3.cpp.o
+
+Chapter_11/11.3/mytime3.i: Chapter_11/11.3/mytime3.cpp.i
+
+.PHONY : Chapter_11/11.3/mytime3.i
+
+# target to preprocess a source file
+Chapter_11/11.3/mytime3.cpp.i:
+	$(MAKE) -f CMakeFiles/usetime3.dir/build.make CMakeFiles/usetime3.dir/Chapter_11/11.3/mytime3.cpp.i
+.PHONY : Chapter_11/11.3/mytime3.cpp.i
+
+Chapter_11/11.3/mytime3.s: Chapter_11/11.3/mytime3.cpp.s
+
+.PHONY : Chapter_11/11.3/mytime3.s
+
+# target to generate assembly for a file
+Chapter_11/11.3/mytime3.cpp.s:
+	$(MAKE) -f CMakeFiles/usetime3.dir/build.make CMakeFiles/usetime3.dir/Chapter_11/11.3/mytime3.cpp.s
+.PHONY : Chapter_11/11.3/mytime3.cpp.s
+
+Chapter_11/11.3/usetime3.o: Chapter_11/11.3/usetime3.cpp.o
+
+.PHONY : Chapter_11/11.3/usetime3.o
+
+# target to build an object file
+Chapter_11/11.3/usetime3.cpp.o:
+	$(MAKE) -f CMakeFiles/usetime3.dir/build.make CMakeFiles/usetime3.dir/Chapter_11/11.3/usetime3.cpp.o
+.PHONY : Chapter_11/11.3/usetime3.cpp.o
+
+Chapter_11/11.3/usetime3.i: Chapter_11/11.3/usetime3.cpp.i
+
+.PHONY : Chapter_11/11.3/usetime3.i
+
+# target to preprocess a source file
+Chapter_11/11.3/usetime3.cpp.i:
+	$(MAKE) -f CMakeFiles/usetime3.dir/build.make CMakeFiles/usetime3.dir/Chapter_11/11.3/usetime3.cpp.i
+.PHONY : Chapter_11/11.3/usetime3.cpp.i
+
+Chapter_11/11.3/usetime3.s: Chapter_11/11.3/usetime3.cpp.s
+
+.PHONY : Chapter_11/11.3/usetime3.s
+
+# target to generate assembly for a file
+Chapter_11/11.3/usetime3.cpp.s:
+	$(MAKE) -f CMakeFiles/usetime3.dir/build.make CMakeFiles/usetime3.dir/Chapter_11/11.3/usetime3.cpp.s
+.PHONY : Chapter_11/11.3/usetime3.cpp.s
+
+Chapter_11/11.6/stone.o: Chapter_11/11.6/stone.cpp.o
+
+.PHONY : Chapter_11/11.6/stone.o
+
+# target to build an object file
+Chapter_11/11.6/stone.cpp.o:
+	$(MAKE) -f CMakeFiles/stone.dir/build.make CMakeFiles/stone.dir/Chapter_11/11.6/stone.cpp.o
+.PHONY : Chapter_11/11.6/stone.cpp.o
+
+Chapter_11/11.6/stone.i: Chapter_11/11.6/stone.cpp.i
+
+.PHONY : Chapter_11/11.6/stone.i
+
+# target to preprocess a source file
+Chapter_11/11.6/stone.cpp.i:
+	$(MAKE) -f CMakeFiles/stone.dir/build.make CMakeFiles/stone.dir/Chapter_11/11.6/stone.cpp.i
+.PHONY : Chapter_11/11.6/stone.cpp.i
+
+Chapter_11/11.6/stone.s: Chapter_11/11.6/stone.cpp.s
+
+.PHONY : Chapter_11/11.6/stone.s
+
+# target to generate assembly for a file
+Chapter_11/11.6/stone.cpp.s:
+	$(MAKE) -f CMakeFiles/stone.dir/build.make CMakeFiles/stone.dir/Chapter_11/11.6/stone.cpp.s
+.PHONY : Chapter_11/11.6/stone.cpp.s
+
+Chapter_11/11.6/stonewt.o: Chapter_11/11.6/stonewt.cpp.o
+
+.PHONY : Chapter_11/11.6/stonewt.o
+
+# target to build an object file
+Chapter_11/11.6/stonewt.cpp.o:
+	$(MAKE) -f CMakeFiles/stone.dir/build.make CMakeFiles/stone.dir/Chapter_11/11.6/stonewt.cpp.o
+.PHONY : Chapter_11/11.6/stonewt.cpp.o
+
+Chapter_11/11.6/stonewt.i: Chapter_11/11.6/stonewt.cpp.i
+
+.PHONY : Chapter_11/11.6/stonewt.i
+
+# target to preprocess a source file
+Chapter_11/11.6/stonewt.cpp.i:
+	$(MAKE) -f CMakeFiles/stone.dir/build.make CMakeFiles/stone.dir/Chapter_11/11.6/stonewt.cpp.i
+.PHONY : Chapter_11/11.6/stonewt.cpp.i
+
+Chapter_11/11.6/stonewt.s: Chapter_11/11.6/stonewt.cpp.s
+
+.PHONY : Chapter_11/11.6/stonewt.s
+
+# target to generate assembly for a file
+Chapter_11/11.6/stonewt.cpp.s:
+	$(MAKE) -f CMakeFiles/stone.dir/build.make CMakeFiles/stone.dir/Chapter_11/11.6/stonewt.cpp.s
+.PHONY : Chapter_11/11.6/stonewt.cpp.s
 
 Chapter_3/Opp.o: Chapter_3/Opp.cpp.o
 
@@ -1598,6 +2067,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... stone"
+	@echo "... stacker"
 	@echo "... arrfun4"
 	@echo "... arrfun2"
 	@echo "... arrfun3"
@@ -1605,11 +2076,16 @@ help:
 	@echo "... travel"
 	@echo "... left"
 	@echo "... autoscp"
+	@echo "... usestok0"
 	@echo "... twoswap"
 	@echo "... newplace"
 	@echo "... calling"
+	@echo "... usetime0"
 	@echo "... protos"
+	@echo "... edit_cache"
+	@echo "... Opp"
 	@echo "... firstref"
+	@echo "... usetime3"
 	@echo "... usestok1"
 	@echo "... typecast"
 	@echo "... arrfun1"
@@ -1624,7 +2100,9 @@ help:
 	@echo "... modulus"
 	@echo "... inline"
 	@echo "... secref"
+	@echo "... usetime2"
 	@echo "... swaps"
+	@echo "... usetime1"
 	@echo "... strc_ref"
 	@echo "... T"
 	@echo "... twoarg"
@@ -1632,14 +2110,54 @@ help:
 	@echo "... funtemp"
 	@echo "... T1"
 	@echo "... external"
-	@echo "... Opp"
-	@echo "... edit_cache"
-	@echo "... Chapter_10/Destructors/Test.o"
-	@echo "... Chapter_10/Destructors/Test.i"
-	@echo "... Chapter_10/Destructors/Test.s"
-	@echo "... Chapter_10/Destructors/usestok1.o"
-	@echo "... Chapter_10/Destructors/usestok1.i"
-	@echo "... Chapter_10/Destructors/usestok1.s"
+	@echo "... Chapter_10/10.2/10.2.2/stock00.o"
+	@echo "... Chapter_10/10.2/10.2.2/stock00.i"
+	@echo "... Chapter_10/10.2/10.2.2/stock00.s"
+	@echo "... Chapter_10/10.2/10.2.2/usestok0.o"
+	@echo "... Chapter_10/10.2/10.2.2/usestok0.i"
+	@echo "... Chapter_10/10.2/10.2.2/usestok0.s"
+	@echo "... Chapter_10/10.3/10.3.5/stock10.o"
+	@echo "... Chapter_10/10.3/10.3.5/stock10.i"
+	@echo "... Chapter_10/10.3/10.3.5/stock10.s"
+	@echo "... Chapter_10/10.3/10.3.5/usestok1.o"
+	@echo "... Chapter_10/10.3/10.3.5/usestok1.i"
+	@echo "... Chapter_10/10.3/10.3.5/usestok1.s"
+	@echo "... Chapter_10/10.7/stack.o"
+	@echo "... Chapter_10/10.7/stack.i"
+	@echo "... Chapter_10/10.7/stack.s"
+	@echo "... Chapter_10/10.7/stacker.o"
+	@echo "... Chapter_10/10.7/stacker.i"
+	@echo "... Chapter_10/10.7/stacker.s"
+	@echo "... Chapter_11/11.2/11.2.1/mytime1.o"
+	@echo "... Chapter_11/11.2/11.2.1/mytime1.i"
+	@echo "... Chapter_11/11.2/11.2.1/mytime1.s"
+	@echo "... Chapter_11/11.2/11.2.1/usetime1.o"
+	@echo "... Chapter_11/11.2/11.2.1/usetime1.i"
+	@echo "... Chapter_11/11.2/11.2.1/usetime1.s"
+	@echo "... Chapter_11/11.2/11.2.3/mytime2.o"
+	@echo "... Chapter_11/11.2/11.2.3/mytime2.i"
+	@echo "... Chapter_11/11.2/11.2.3/mytime2.s"
+	@echo "... Chapter_11/11.2/11.2.3/usetime2.o"
+	@echo "... Chapter_11/11.2/11.2.3/usetime2.i"
+	@echo "... Chapter_11/11.2/11.2.3/usetime2.s"
+	@echo "... Chapter_11/11.2/mytime0.o"
+	@echo "... Chapter_11/11.2/mytime0.i"
+	@echo "... Chapter_11/11.2/mytime0.s"
+	@echo "... Chapter_11/11.2/usetime0.o"
+	@echo "... Chapter_11/11.2/usetime0.i"
+	@echo "... Chapter_11/11.2/usetime0.s"
+	@echo "... Chapter_11/11.3/mytime3.o"
+	@echo "... Chapter_11/11.3/mytime3.i"
+	@echo "... Chapter_11/11.3/mytime3.s"
+	@echo "... Chapter_11/11.3/usetime3.o"
+	@echo "... Chapter_11/11.3/usetime3.i"
+	@echo "... Chapter_11/11.3/usetime3.s"
+	@echo "... Chapter_11/11.6/stone.o"
+	@echo "... Chapter_11/11.6/stone.i"
+	@echo "... Chapter_11/11.6/stone.s"
+	@echo "... Chapter_11/11.6/stonewt.o"
+	@echo "... Chapter_11/11.6/stonewt.i"
+	@echo "... Chapter_11/11.6/stonewt.s"
 	@echo "... Chapter_3/Opp.o"
 	@echo "... Chapter_3/Opp.i"
 	@echo "... Chapter_3/Opp.s"
