@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/Chapter_10/Destructors/stock10.cpp" "/cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles/stock10.dir/Chapter_10/Destructors/stock10.cpp.o"
+  "/cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/Chapter_10/Destructors/stock10.cpp" "/cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles/stock10.dir/Chapter_10/Destructors/stock10.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

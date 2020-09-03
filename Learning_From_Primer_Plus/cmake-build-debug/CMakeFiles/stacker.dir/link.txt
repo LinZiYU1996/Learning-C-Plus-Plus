@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/stacker.dir/Chapter_10/10.7/stacker.cpp.o CMakeFiles/stacker.dir/Chapter_10/10.7/stack.cpp.o  -o stacker.exe -Wl,--out-implib,libstacker.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

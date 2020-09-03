@@ -6,13 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/Chapter_10/Destructors/Test.cpp
+/cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/Chapter_10/10.3/10.3.5/stock10.cpp
 iostream
 -
 stock10.h
-/cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/Chapter_10/Destructors/stock10.h
+/cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/Chapter_10/10.3/10.3.5/stock10.h
 
-/cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/Chapter_10/Destructors/stock10.h
+/cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/Chapter_10/10.3/10.3.5/stock10.h
 string
 -
+
+/cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/Chapter_10/10.3/10.3.5/usestok1.cpp
+iostream
+-
+stock10.h
+/cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/Chapter_10/10.3/10.3.5/stock10.h
 

@@ -39,38 +39,27 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/ly/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /cygdrive/c/Users/linziyu/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/ly/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /cygdrive/c/Users/linziyu/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus
+CMAKE_SOURCE_DIR = /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/cygdrive/c/Users/ly/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/cygdrive/c/Users/ly/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/cygdrive/c/Users/linziyu/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -78,11 +67,22 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/cygdrive/c/Users/linziyu/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,381 +111,43 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named stock10
+# Target rules for targets named stone
 
 # Build rule for target.
-stock10: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stock10
-.PHONY : stock10
+stone: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stone
+.PHONY : stone
 
 # fast build rule for target.
-stock10/fast:
-	$(MAKE) -f CMakeFiles/stock10.dir/build.make CMakeFiles/stock10.dir/build
-.PHONY : stock10/fast
+stone/fast:
+	$(MAKE) -f CMakeFiles/stone.dir/build.make CMakeFiles/stone.dir/build
+.PHONY : stone/fast
 
 #=============================================================================
-# Target rules for targets named funtemp
+# Target rules for targets named stacker
 
 # Build rule for target.
-funtemp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 funtemp
-.PHONY : funtemp
+stacker: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stacker
+.PHONY : stacker
 
 # fast build rule for target.
-funtemp/fast:
-	$(MAKE) -f CMakeFiles/funtemp.dir/build.make CMakeFiles/funtemp.dir/build
-.PHONY : funtemp/fast
+stacker/fast:
+	$(MAKE) -f CMakeFiles/stacker.dir/build.make CMakeFiles/stacker.dir/build
+.PHONY : stacker/fast
 
 #=============================================================================
-# Target rules for targets named strquote
+# Target rules for targets named arrfun4
 
 # Build rule for target.
-strquote: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 strquote
-.PHONY : strquote
+arrfun4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 arrfun4
+.PHONY : arrfun4
 
 # fast build rule for target.
-strquote/fast:
-	$(MAKE) -f CMakeFiles/strquote.dir/build.make CMakeFiles/strquote.dir/build
-.PHONY : strquote/fast
-
-#=============================================================================
-# Target rules for targets named strc_ref
-
-# Build rule for target.
-strc_ref: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 strc_ref
-.PHONY : strc_ref
-
-# fast build rule for target.
-strc_ref/fast:
-	$(MAKE) -f CMakeFiles/strc_ref.dir/build.make CMakeFiles/strc_ref.dir/build
-.PHONY : strc_ref/fast
-
-#=============================================================================
-# Target rules for targets named swaps
-
-# Build rule for target.
-swaps: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 swaps
-.PHONY : swaps
-
-# fast build rule for target.
-swaps/fast:
-	$(MAKE) -f CMakeFiles/swaps.dir/build.make CMakeFiles/swaps.dir/build
-.PHONY : swaps/fast
-
-#=============================================================================
-# Target rules for targets named secref
-
-# Build rule for target.
-secref: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 secref
-.PHONY : secref
-
-# fast build rule for target.
-secref/fast:
-	$(MAKE) -f CMakeFiles/secref.dir/build.make CMakeFiles/secref.dir/build
-.PHONY : secref/fast
-
-#=============================================================================
-# Target rules for targets named inline
-
-# Build rule for target.
-inline: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 inline
-.PHONY : inline
-
-# fast build rule for target.
-inline/fast:
-	$(MAKE) -f CMakeFiles/inline.dir/build.make CMakeFiles/inline.dir/build
-.PHONY : inline/fast
-
-#=============================================================================
-# Target rules for targets named cubes
-
-# Build rule for target.
-cubes: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 cubes
-.PHONY : cubes
-
-# fast build rule for target.
-cubes/fast:
-	$(MAKE) -f CMakeFiles/cubes.dir/build.make CMakeFiles/cubes.dir/build
-.PHONY : cubes/fast
-
-#=============================================================================
-# Target rules for targets named arrobj
-
-# Build rule for target.
-arrobj: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 arrobj
-.PHONY : arrobj
-
-# fast build rule for target.
-arrobj/fast:
-	$(MAKE) -f CMakeFiles/arrobj.dir/build.make CMakeFiles/arrobj.dir/build
-.PHONY : arrobj/fast
-
-#=============================================================================
-# Target rules for targets named strctptr
-
-# Build rule for target.
-strctptr: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 strctptr
-.PHONY : strctptr
-
-# fast build rule for target.
-strctptr/fast:
-	$(MAKE) -f CMakeFiles/strctptr.dir/build.make CMakeFiles/strctptr.dir/build
-.PHONY : strctptr/fast
-
-#=============================================================================
-# Target rules for targets named twotemps
-
-# Build rule for target.
-twotemps: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 twotemps
-.PHONY : twotemps
-
-# fast build rule for target.
-twotemps/fast:
-	$(MAKE) -f CMakeFiles/twotemps.dir/build.make CMakeFiles/twotemps.dir/build
-.PHONY : twotemps/fast
-
-#=============================================================================
-# Target rules for targets named modulus
-
-# Build rule for target.
-modulus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 modulus
-.PHONY : modulus
-
-# fast build rule for target.
-modulus/fast:
-	$(MAKE) -f CMakeFiles/modulus.dir/build.make CMakeFiles/modulus.dir/build
-.PHONY : modulus/fast
-
-#=============================================================================
-# Target rules for targets named twoarg
-
-# Build rule for target.
-twoarg: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 twoarg
-.PHONY : twoarg
-
-# fast build rule for target.
-twoarg/fast:
-	$(MAKE) -f CMakeFiles/twoarg.dir/build.make CMakeFiles/twoarg.dir/build
-.PHONY : twoarg/fast
-
-#=============================================================================
-# Target rules for targets named Learning_From_Primer_Plus
-
-# Build rule for target.
-Learning_From_Primer_Plus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Learning_From_Primer_Plus
-.PHONY : Learning_From_Primer_Plus
-
-# fast build rule for target.
-Learning_From_Primer_Plus/fast:
-	$(MAKE) -f CMakeFiles/Learning_From_Primer_Plus.dir/build.make CMakeFiles/Learning_From_Primer_Plus.dir/build
-.PHONY : Learning_From_Primer_Plus/fast
-
-#=============================================================================
-# Target rules for targets named arrfun1
-
-# Build rule for target.
-arrfun1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 arrfun1
-.PHONY : arrfun1
-
-# fast build rule for target.
-arrfun1/fast:
-	$(MAKE) -f CMakeFiles/arrfun1.dir/build.make CMakeFiles/arrfun1.dir/build
-.PHONY : arrfun1/fast
-
-#=============================================================================
-# Target rules for targets named T1
-
-# Build rule for target.
-T1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 T1
-.PHONY : T1
-
-# fast build rule for target.
-T1/fast:
-	$(MAKE) -f CMakeFiles/T1.dir/build.make CMakeFiles/T1.dir/build
-.PHONY : T1/fast
-
-#=============================================================================
-# Target rules for targets named typecast
-
-# Build rule for target.
-typecast: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 typecast
-.PHONY : typecast
-
-# fast build rule for target.
-typecast/fast:
-	$(MAKE) -f CMakeFiles/typecast.dir/build.make CMakeFiles/typecast.dir/build
-.PHONY : typecast/fast
-
-#=============================================================================
-# Target rules for targets named usestok1
-
-# Build rule for target.
-usestok1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 usestok1
-.PHONY : usestok1
-
-# fast build rule for target.
-usestok1/fast:
-	$(MAKE) -f CMakeFiles/usestok1.dir/build.make CMakeFiles/usestok1.dir/build
-.PHONY : usestok1/fast
-
-#=============================================================================
-# Target rules for targets named firstref
-
-# Build rule for target.
-firstref: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 firstref
-.PHONY : firstref
-
-# fast build rule for target.
-firstref/fast:
-	$(MAKE) -f CMakeFiles/firstref.dir/build.make CMakeFiles/firstref.dir/build
-.PHONY : firstref/fast
-
-#=============================================================================
-# Target rules for targets named Opp
-
-# Build rule for target.
-Opp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Opp
-.PHONY : Opp
-
-# fast build rule for target.
-Opp/fast:
-	$(MAKE) -f CMakeFiles/Opp.dir/build.make CMakeFiles/Opp.dir/build
-.PHONY : Opp/fast
-
-#=============================================================================
-# Target rules for targets named protos
-
-# Build rule for target.
-protos: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 protos
-.PHONY : protos
-
-# fast build rule for target.
-protos/fast:
-	$(MAKE) -f CMakeFiles/protos.dir/build.make CMakeFiles/protos.dir/build
-.PHONY : protos/fast
-
-#=============================================================================
-# Target rules for targets named calling
-
-# Build rule for target.
-calling: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 calling
-.PHONY : calling
-
-# fast build rule for target.
-calling/fast:
-	$(MAKE) -f CMakeFiles/calling.dir/build.make CMakeFiles/calling.dir/build
-.PHONY : calling/fast
-
-#=============================================================================
-# Target rules for targets named twoswap
-
-# Build rule for target.
-twoswap: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 twoswap
-.PHONY : twoswap
-
-# fast build rule for target.
-twoswap/fast:
-	$(MAKE) -f CMakeFiles/twoswap.dir/build.make CMakeFiles/twoswap.dir/build
-.PHONY : twoswap/fast
-
-#=============================================================================
-# Target rules for targets named lotto
-
-# Build rule for target.
-lotto: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lotto
-.PHONY : lotto
-
-# fast build rule for target.
-lotto/fast:
-	$(MAKE) -f CMakeFiles/lotto.dir/build.make CMakeFiles/lotto.dir/build
-.PHONY : lotto/fast
-
-#=============================================================================
-# Target rules for targets named left
-
-# Build rule for target.
-left: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 left
-.PHONY : left
-
-# fast build rule for target.
-left/fast:
-	$(MAKE) -f CMakeFiles/left.dir/build.make CMakeFiles/left.dir/build
-.PHONY : left/fast
-
-#=============================================================================
-# Target rules for targets named travel
-
-# Build rule for target.
-travel: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 travel
-.PHONY : travel
-
-# fast build rule for target.
-travel/fast:
-	$(MAKE) -f CMakeFiles/travel.dir/build.make CMakeFiles/travel.dir/build
-.PHONY : travel/fast
-
-#=============================================================================
-# Target rules for targets named init
-
-# Build rule for target.
-init: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 init
-.PHONY : init
-
-# fast build rule for target.
-init/fast:
-	$(MAKE) -f CMakeFiles/init.dir/build.make CMakeFiles/init.dir/build
-.PHONY : init/fast
-
-#=============================================================================
-# Target rules for targets named divide
-
-# Build rule for target.
-divide: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 divide
-.PHONY : divide
-
-# fast build rule for target.
-divide/fast:
-	$(MAKE) -f CMakeFiles/divide.dir/build.make CMakeFiles/divide.dir/build
-.PHONY : divide/fast
-
-#=============================================================================
-# Target rules for targets named arrfun3
-
-# Build rule for target.
-arrfun3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 arrfun3
-.PHONY : arrfun3
-
-# fast build rule for target.
-arrfun3/fast:
-	$(MAKE) -f CMakeFiles/arrfun3.dir/build.make CMakeFiles/arrfun3.dir/build
-.PHONY : arrfun3/fast
+arrfun4/fast:
+	$(MAKE) -f CMakeFiles/arrfun4.dir/build.make CMakeFiles/arrfun4.dir/build
+.PHONY : arrfun4/fast
 
 #=============================================================================
 # Target rules for targets named arrfun2
@@ -501,6 +163,422 @@ arrfun2/fast:
 .PHONY : arrfun2/fast
 
 #=============================================================================
+# Target rules for targets named arrfun3
+
+# Build rule for target.
+arrfun3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 arrfun3
+.PHONY : arrfun3
+
+# fast build rule for target.
+arrfun3/fast:
+	$(MAKE) -f CMakeFiles/arrfun3.dir/build.make CMakeFiles/arrfun3.dir/build
+.PHONY : arrfun3/fast
+
+#=============================================================================
+# Target rules for targets named init
+
+# Build rule for target.
+init: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 init
+.PHONY : init
+
+# fast build rule for target.
+init/fast:
+	$(MAKE) -f CMakeFiles/init.dir/build.make CMakeFiles/init.dir/build
+.PHONY : init/fast
+
+#=============================================================================
+# Target rules for targets named travel
+
+# Build rule for target.
+travel: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 travel
+.PHONY : travel
+
+# fast build rule for target.
+travel/fast:
+	$(MAKE) -f CMakeFiles/travel.dir/build.make CMakeFiles/travel.dir/build
+.PHONY : travel/fast
+
+#=============================================================================
+# Target rules for targets named left
+
+# Build rule for target.
+left: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 left
+.PHONY : left
+
+# fast build rule for target.
+left/fast:
+	$(MAKE) -f CMakeFiles/left.dir/build.make CMakeFiles/left.dir/build
+.PHONY : left/fast
+
+#=============================================================================
+# Target rules for targets named autoscp
+
+# Build rule for target.
+autoscp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 autoscp
+.PHONY : autoscp
+
+# fast build rule for target.
+autoscp/fast:
+	$(MAKE) -f CMakeFiles/autoscp.dir/build.make CMakeFiles/autoscp.dir/build
+.PHONY : autoscp/fast
+
+#=============================================================================
+# Target rules for targets named usestok0
+
+# Build rule for target.
+usestok0: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 usestok0
+.PHONY : usestok0
+
+# fast build rule for target.
+usestok0/fast:
+	$(MAKE) -f CMakeFiles/usestok0.dir/build.make CMakeFiles/usestok0.dir/build
+.PHONY : usestok0/fast
+
+#=============================================================================
+# Target rules for targets named twoswap
+
+# Build rule for target.
+twoswap: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 twoswap
+.PHONY : twoswap
+
+# fast build rule for target.
+twoswap/fast:
+	$(MAKE) -f CMakeFiles/twoswap.dir/build.make CMakeFiles/twoswap.dir/build
+.PHONY : twoswap/fast
+
+#=============================================================================
+# Target rules for targets named newplace
+
+# Build rule for target.
+newplace: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 newplace
+.PHONY : newplace
+
+# fast build rule for target.
+newplace/fast:
+	$(MAKE) -f CMakeFiles/newplace.dir/build.make CMakeFiles/newplace.dir/build
+.PHONY : newplace/fast
+
+#=============================================================================
+# Target rules for targets named calling
+
+# Build rule for target.
+calling: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 calling
+.PHONY : calling
+
+# fast build rule for target.
+calling/fast:
+	$(MAKE) -f CMakeFiles/calling.dir/build.make CMakeFiles/calling.dir/build
+.PHONY : calling/fast
+
+#=============================================================================
+# Target rules for targets named usetime0
+
+# Build rule for target.
+usetime0: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 usetime0
+.PHONY : usetime0
+
+# fast build rule for target.
+usetime0/fast:
+	$(MAKE) -f CMakeFiles/usetime0.dir/build.make CMakeFiles/usetime0.dir/build
+.PHONY : usetime0/fast
+
+#=============================================================================
+# Target rules for targets named protos
+
+# Build rule for target.
+protos: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 protos
+.PHONY : protos
+
+# fast build rule for target.
+protos/fast:
+	$(MAKE) -f CMakeFiles/protos.dir/build.make CMakeFiles/protos.dir/build
+.PHONY : protos/fast
+
+#=============================================================================
+# Target rules for targets named Opp
+
+# Build rule for target.
+Opp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Opp
+.PHONY : Opp
+
+# fast build rule for target.
+Opp/fast:
+	$(MAKE) -f CMakeFiles/Opp.dir/build.make CMakeFiles/Opp.dir/build
+.PHONY : Opp/fast
+
+#=============================================================================
+# Target rules for targets named firstref
+
+# Build rule for target.
+firstref: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 firstref
+.PHONY : firstref
+
+# fast build rule for target.
+firstref/fast:
+	$(MAKE) -f CMakeFiles/firstref.dir/build.make CMakeFiles/firstref.dir/build
+.PHONY : firstref/fast
+
+#=============================================================================
+# Target rules for targets named usetime3
+
+# Build rule for target.
+usetime3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 usetime3
+.PHONY : usetime3
+
+# fast build rule for target.
+usetime3/fast:
+	$(MAKE) -f CMakeFiles/usetime3.dir/build.make CMakeFiles/usetime3.dir/build
+.PHONY : usetime3/fast
+
+#=============================================================================
+# Target rules for targets named usestok1
+
+# Build rule for target.
+usestok1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 usestok1
+.PHONY : usestok1
+
+# fast build rule for target.
+usestok1/fast:
+	$(MAKE) -f CMakeFiles/usestok1.dir/build.make CMakeFiles/usestok1.dir/build
+.PHONY : usestok1/fast
+
+#=============================================================================
+# Target rules for targets named typecast
+
+# Build rule for target.
+typecast: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 typecast
+.PHONY : typecast
+
+# fast build rule for target.
+typecast/fast:
+	$(MAKE) -f CMakeFiles/typecast.dir/build.make CMakeFiles/typecast.dir/build
+.PHONY : typecast/fast
+
+#=============================================================================
+# Target rules for targets named arrfun1
+
+# Build rule for target.
+arrfun1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 arrfun1
+.PHONY : arrfun1
+
+# fast build rule for target.
+arrfun1/fast:
+	$(MAKE) -f CMakeFiles/arrfun1.dir/build.make CMakeFiles/arrfun1.dir/build
+.PHONY : arrfun1/fast
+
+#=============================================================================
+# Target rules for targets named Learning_From_Primer_Plus
+
+# Build rule for target.
+Learning_From_Primer_Plus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Learning_From_Primer_Plus
+.PHONY : Learning_From_Primer_Plus
+
+# fast build rule for target.
+Learning_From_Primer_Plus/fast:
+	$(MAKE) -f CMakeFiles/Learning_From_Primer_Plus.dir/build.make CMakeFiles/Learning_From_Primer_Plus.dir/build
+.PHONY : Learning_From_Primer_Plus/fast
+
+#=============================================================================
+# Target rules for targets named lotto
+
+# Build rule for target.
+lotto: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lotto
+.PHONY : lotto
+
+# fast build rule for target.
+lotto/fast:
+	$(MAKE) -f CMakeFiles/lotto.dir/build.make CMakeFiles/lotto.dir/build
+.PHONY : lotto/fast
+
+#=============================================================================
+# Target rules for targets named twotemps
+
+# Build rule for target.
+twotemps: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 twotemps
+.PHONY : twotemps
+
+# fast build rule for target.
+twotemps/fast:
+	$(MAKE) -f CMakeFiles/twotemps.dir/build.make CMakeFiles/twotemps.dir/build
+.PHONY : twotemps/fast
+
+#=============================================================================
+# Target rules for targets named file1
+
+# Build rule for target.
+file1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 file1
+.PHONY : file1
+
+# fast build rule for target.
+file1/fast:
+	$(MAKE) -f CMakeFiles/file1.dir/build.make CMakeFiles/file1.dir/build
+.PHONY : file1/fast
+
+#=============================================================================
+# Target rules for targets named divide
+
+# Build rule for target.
+divide: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 divide
+.PHONY : divide
+
+# fast build rule for target.
+divide/fast:
+	$(MAKE) -f CMakeFiles/divide.dir/build.make CMakeFiles/divide.dir/build
+.PHONY : divide/fast
+
+#=============================================================================
+# Target rules for targets named strctptr
+
+# Build rule for target.
+strctptr: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 strctptr
+.PHONY : strctptr
+
+# fast build rule for target.
+strctptr/fast:
+	$(MAKE) -f CMakeFiles/strctptr.dir/build.make CMakeFiles/strctptr.dir/build
+.PHONY : strctptr/fast
+
+#=============================================================================
+# Target rules for targets named arrobj
+
+# Build rule for target.
+arrobj: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 arrobj
+.PHONY : arrobj
+
+# fast build rule for target.
+arrobj/fast:
+	$(MAKE) -f CMakeFiles/arrobj.dir/build.make CMakeFiles/arrobj.dir/build
+.PHONY : arrobj/fast
+
+#=============================================================================
+# Target rules for targets named cubes
+
+# Build rule for target.
+cubes: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cubes
+.PHONY : cubes
+
+# fast build rule for target.
+cubes/fast:
+	$(MAKE) -f CMakeFiles/cubes.dir/build.make CMakeFiles/cubes.dir/build
+.PHONY : cubes/fast
+
+#=============================================================================
+# Target rules for targets named modulus
+
+# Build rule for target.
+modulus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 modulus
+.PHONY : modulus
+
+# fast build rule for target.
+modulus/fast:
+	$(MAKE) -f CMakeFiles/modulus.dir/build.make CMakeFiles/modulus.dir/build
+.PHONY : modulus/fast
+
+#=============================================================================
+# Target rules for targets named inline
+
+# Build rule for target.
+inline: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 inline
+.PHONY : inline
+
+# fast build rule for target.
+inline/fast:
+	$(MAKE) -f CMakeFiles/inline.dir/build.make CMakeFiles/inline.dir/build
+.PHONY : inline/fast
+
+#=============================================================================
+# Target rules for targets named secref
+
+# Build rule for target.
+secref: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 secref
+.PHONY : secref
+
+# fast build rule for target.
+secref/fast:
+	$(MAKE) -f CMakeFiles/secref.dir/build.make CMakeFiles/secref.dir/build
+.PHONY : secref/fast
+
+#=============================================================================
+# Target rules for targets named usetime2
+
+# Build rule for target.
+usetime2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 usetime2
+.PHONY : usetime2
+
+# fast build rule for target.
+usetime2/fast:
+	$(MAKE) -f CMakeFiles/usetime2.dir/build.make CMakeFiles/usetime2.dir/build
+.PHONY : usetime2/fast
+
+#=============================================================================
+# Target rules for targets named swaps
+
+# Build rule for target.
+swaps: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 swaps
+.PHONY : swaps
+
+# fast build rule for target.
+swaps/fast:
+	$(MAKE) -f CMakeFiles/swaps.dir/build.make CMakeFiles/swaps.dir/build
+.PHONY : swaps/fast
+
+#=============================================================================
+# Target rules for targets named usetime1
+
+# Build rule for target.
+usetime1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 usetime1
+.PHONY : usetime1
+
+# fast build rule for target.
+usetime1/fast:
+	$(MAKE) -f CMakeFiles/usetime1.dir/build.make CMakeFiles/usetime1.dir/build
+.PHONY : usetime1/fast
+
+#=============================================================================
+# Target rules for targets named strc_ref
+
+# Build rule for target.
+strc_ref: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 strc_ref
+.PHONY : strc_ref
+
+# fast build rule for target.
+strc_ref/fast:
+	$(MAKE) -f CMakeFiles/strc_ref.dir/build.make CMakeFiles/strc_ref.dir/build
+.PHONY : strc_ref/fast
+
+#=============================================================================
 # Target rules for targets named T
 
 # Build rule for target.
@@ -514,98 +592,501 @@ T/fast:
 .PHONY : T/fast
 
 #=============================================================================
-# Target rules for targets named arrfun4
+# Target rules for targets named twoarg
 
 # Build rule for target.
-arrfun4: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 arrfun4
-.PHONY : arrfun4
+twoarg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 twoarg
+.PHONY : twoarg
 
 # fast build rule for target.
-arrfun4/fast:
-	$(MAKE) -f CMakeFiles/arrfun4.dir/build.make CMakeFiles/arrfun4.dir/build
-.PHONY : arrfun4/fast
+twoarg/fast:
+	$(MAKE) -f CMakeFiles/twoarg.dir/build.make CMakeFiles/twoarg.dir/build
+.PHONY : twoarg/fast
 
-Chapter_10/Destructors/Test.o: Chapter_10/Destructors/Test.cpp.o
+#=============================================================================
+# Target rules for targets named strquote
 
-.PHONY : Chapter_10/Destructors/Test.o
+# Build rule for target.
+strquote: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 strquote
+.PHONY : strquote
 
-# target to build an object file
-Chapter_10/Destructors/Test.cpp.o:
-	$(MAKE) -f CMakeFiles/usestok1.dir/build.make CMakeFiles/usestok1.dir/Chapter_10/Destructors/Test.cpp.o
-.PHONY : Chapter_10/Destructors/Test.cpp.o
+# fast build rule for target.
+strquote/fast:
+	$(MAKE) -f CMakeFiles/strquote.dir/build.make CMakeFiles/strquote.dir/build
+.PHONY : strquote/fast
 
-Chapter_10/Destructors/Test.i: Chapter_10/Destructors/Test.cpp.i
+#=============================================================================
+# Target rules for targets named funtemp
 
-.PHONY : Chapter_10/Destructors/Test.i
+# Build rule for target.
+funtemp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 funtemp
+.PHONY : funtemp
 
-# target to preprocess a source file
-Chapter_10/Destructors/Test.cpp.i:
-	$(MAKE) -f CMakeFiles/usestok1.dir/build.make CMakeFiles/usestok1.dir/Chapter_10/Destructors/Test.cpp.i
-.PHONY : Chapter_10/Destructors/Test.cpp.i
+# fast build rule for target.
+funtemp/fast:
+	$(MAKE) -f CMakeFiles/funtemp.dir/build.make CMakeFiles/funtemp.dir/build
+.PHONY : funtemp/fast
 
-Chapter_10/Destructors/Test.s: Chapter_10/Destructors/Test.cpp.s
+#=============================================================================
+# Target rules for targets named T1
 
-.PHONY : Chapter_10/Destructors/Test.s
+# Build rule for target.
+T1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 T1
+.PHONY : T1
 
-# target to generate assembly for a file
-Chapter_10/Destructors/Test.cpp.s:
-	$(MAKE) -f CMakeFiles/usestok1.dir/build.make CMakeFiles/usestok1.dir/Chapter_10/Destructors/Test.cpp.s
-.PHONY : Chapter_10/Destructors/Test.cpp.s
+# fast build rule for target.
+T1/fast:
+	$(MAKE) -f CMakeFiles/T1.dir/build.make CMakeFiles/T1.dir/build
+.PHONY : T1/fast
 
-Chapter_10/Destructors/stock10.o: Chapter_10/Destructors/stock10.cpp.o
+#=============================================================================
+# Target rules for targets named external
 
-.PHONY : Chapter_10/Destructors/stock10.o
+# Build rule for target.
+external: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 external
+.PHONY : external
 
-# target to build an object file
-Chapter_10/Destructors/stock10.cpp.o:
-	$(MAKE) -f CMakeFiles/stock10.dir/build.make CMakeFiles/stock10.dir/Chapter_10/Destructors/stock10.cpp.o
-.PHONY : Chapter_10/Destructors/stock10.cpp.o
+# fast build rule for target.
+external/fast:
+	$(MAKE) -f CMakeFiles/external.dir/build.make CMakeFiles/external.dir/build
+.PHONY : external/fast
 
-Chapter_10/Destructors/stock10.i: Chapter_10/Destructors/stock10.cpp.i
+Chapter_10/10.2/10.2.2/stock00.o: Chapter_10/10.2/10.2.2/stock00.cpp.o
 
-.PHONY : Chapter_10/Destructors/stock10.i
-
-# target to preprocess a source file
-Chapter_10/Destructors/stock10.cpp.i:
-	$(MAKE) -f CMakeFiles/stock10.dir/build.make CMakeFiles/stock10.dir/Chapter_10/Destructors/stock10.cpp.i
-.PHONY : Chapter_10/Destructors/stock10.cpp.i
-
-Chapter_10/Destructors/stock10.s: Chapter_10/Destructors/stock10.cpp.s
-
-.PHONY : Chapter_10/Destructors/stock10.s
-
-# target to generate assembly for a file
-Chapter_10/Destructors/stock10.cpp.s:
-	$(MAKE) -f CMakeFiles/stock10.dir/build.make CMakeFiles/stock10.dir/Chapter_10/Destructors/stock10.cpp.s
-.PHONY : Chapter_10/Destructors/stock10.cpp.s
-
-Chapter_10/Destructors/usestok1.o: Chapter_10/Destructors/usestok1.cpp.o
-
-.PHONY : Chapter_10/Destructors/usestok1.o
+.PHONY : Chapter_10/10.2/10.2.2/stock00.o
 
 # target to build an object file
-Chapter_10/Destructors/usestok1.cpp.o:
-	$(MAKE) -f CMakeFiles/usestok1.dir/build.make CMakeFiles/usestok1.dir/Chapter_10/Destructors/usestok1.cpp.o
-.PHONY : Chapter_10/Destructors/usestok1.cpp.o
+Chapter_10/10.2/10.2.2/stock00.cpp.o:
+	$(MAKE) -f CMakeFiles/usestok0.dir/build.make CMakeFiles/usestok0.dir/Chapter_10/10.2/10.2.2/stock00.cpp.o
+.PHONY : Chapter_10/10.2/10.2.2/stock00.cpp.o
 
-Chapter_10/Destructors/usestok1.i: Chapter_10/Destructors/usestok1.cpp.i
+Chapter_10/10.2/10.2.2/stock00.i: Chapter_10/10.2/10.2.2/stock00.cpp.i
 
-.PHONY : Chapter_10/Destructors/usestok1.i
+.PHONY : Chapter_10/10.2/10.2.2/stock00.i
 
 # target to preprocess a source file
-Chapter_10/Destructors/usestok1.cpp.i:
-	$(MAKE) -f CMakeFiles/usestok1.dir/build.make CMakeFiles/usestok1.dir/Chapter_10/Destructors/usestok1.cpp.i
-.PHONY : Chapter_10/Destructors/usestok1.cpp.i
+Chapter_10/10.2/10.2.2/stock00.cpp.i:
+	$(MAKE) -f CMakeFiles/usestok0.dir/build.make CMakeFiles/usestok0.dir/Chapter_10/10.2/10.2.2/stock00.cpp.i
+.PHONY : Chapter_10/10.2/10.2.2/stock00.cpp.i
 
-Chapter_10/Destructors/usestok1.s: Chapter_10/Destructors/usestok1.cpp.s
+Chapter_10/10.2/10.2.2/stock00.s: Chapter_10/10.2/10.2.2/stock00.cpp.s
 
-.PHONY : Chapter_10/Destructors/usestok1.s
+.PHONY : Chapter_10/10.2/10.2.2/stock00.s
 
 # target to generate assembly for a file
-Chapter_10/Destructors/usestok1.cpp.s:
-	$(MAKE) -f CMakeFiles/usestok1.dir/build.make CMakeFiles/usestok1.dir/Chapter_10/Destructors/usestok1.cpp.s
-.PHONY : Chapter_10/Destructors/usestok1.cpp.s
+Chapter_10/10.2/10.2.2/stock00.cpp.s:
+	$(MAKE) -f CMakeFiles/usestok0.dir/build.make CMakeFiles/usestok0.dir/Chapter_10/10.2/10.2.2/stock00.cpp.s
+.PHONY : Chapter_10/10.2/10.2.2/stock00.cpp.s
+
+Chapter_10/10.2/10.2.2/usestok0.o: Chapter_10/10.2/10.2.2/usestok0.cpp.o
+
+.PHONY : Chapter_10/10.2/10.2.2/usestok0.o
+
+# target to build an object file
+Chapter_10/10.2/10.2.2/usestok0.cpp.o:
+	$(MAKE) -f CMakeFiles/usestok0.dir/build.make CMakeFiles/usestok0.dir/Chapter_10/10.2/10.2.2/usestok0.cpp.o
+.PHONY : Chapter_10/10.2/10.2.2/usestok0.cpp.o
+
+Chapter_10/10.2/10.2.2/usestok0.i: Chapter_10/10.2/10.2.2/usestok0.cpp.i
+
+.PHONY : Chapter_10/10.2/10.2.2/usestok0.i
+
+# target to preprocess a source file
+Chapter_10/10.2/10.2.2/usestok0.cpp.i:
+	$(MAKE) -f CMakeFiles/usestok0.dir/build.make CMakeFiles/usestok0.dir/Chapter_10/10.2/10.2.2/usestok0.cpp.i
+.PHONY : Chapter_10/10.2/10.2.2/usestok0.cpp.i
+
+Chapter_10/10.2/10.2.2/usestok0.s: Chapter_10/10.2/10.2.2/usestok0.cpp.s
+
+.PHONY : Chapter_10/10.2/10.2.2/usestok0.s
+
+# target to generate assembly for a file
+Chapter_10/10.2/10.2.2/usestok0.cpp.s:
+	$(MAKE) -f CMakeFiles/usestok0.dir/build.make CMakeFiles/usestok0.dir/Chapter_10/10.2/10.2.2/usestok0.cpp.s
+.PHONY : Chapter_10/10.2/10.2.2/usestok0.cpp.s
+
+Chapter_10/10.3/10.3.5/stock10.o: Chapter_10/10.3/10.3.5/stock10.cpp.o
+
+.PHONY : Chapter_10/10.3/10.3.5/stock10.o
+
+# target to build an object file
+Chapter_10/10.3/10.3.5/stock10.cpp.o:
+	$(MAKE) -f CMakeFiles/usestok1.dir/build.make CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/stock10.cpp.o
+.PHONY : Chapter_10/10.3/10.3.5/stock10.cpp.o
+
+Chapter_10/10.3/10.3.5/stock10.i: Chapter_10/10.3/10.3.5/stock10.cpp.i
+
+.PHONY : Chapter_10/10.3/10.3.5/stock10.i
+
+# target to preprocess a source file
+Chapter_10/10.3/10.3.5/stock10.cpp.i:
+	$(MAKE) -f CMakeFiles/usestok1.dir/build.make CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/stock10.cpp.i
+.PHONY : Chapter_10/10.3/10.3.5/stock10.cpp.i
+
+Chapter_10/10.3/10.3.5/stock10.s: Chapter_10/10.3/10.3.5/stock10.cpp.s
+
+.PHONY : Chapter_10/10.3/10.3.5/stock10.s
+
+# target to generate assembly for a file
+Chapter_10/10.3/10.3.5/stock10.cpp.s:
+	$(MAKE) -f CMakeFiles/usestok1.dir/build.make CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/stock10.cpp.s
+.PHONY : Chapter_10/10.3/10.3.5/stock10.cpp.s
+
+Chapter_10/10.3/10.3.5/usestok1.o: Chapter_10/10.3/10.3.5/usestok1.cpp.o
+
+.PHONY : Chapter_10/10.3/10.3.5/usestok1.o
+
+# target to build an object file
+Chapter_10/10.3/10.3.5/usestok1.cpp.o:
+	$(MAKE) -f CMakeFiles/usestok1.dir/build.make CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/usestok1.cpp.o
+.PHONY : Chapter_10/10.3/10.3.5/usestok1.cpp.o
+
+Chapter_10/10.3/10.3.5/usestok1.i: Chapter_10/10.3/10.3.5/usestok1.cpp.i
+
+.PHONY : Chapter_10/10.3/10.3.5/usestok1.i
+
+# target to preprocess a source file
+Chapter_10/10.3/10.3.5/usestok1.cpp.i:
+	$(MAKE) -f CMakeFiles/usestok1.dir/build.make CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/usestok1.cpp.i
+.PHONY : Chapter_10/10.3/10.3.5/usestok1.cpp.i
+
+Chapter_10/10.3/10.3.5/usestok1.s: Chapter_10/10.3/10.3.5/usestok1.cpp.s
+
+.PHONY : Chapter_10/10.3/10.3.5/usestok1.s
+
+# target to generate assembly for a file
+Chapter_10/10.3/10.3.5/usestok1.cpp.s:
+	$(MAKE) -f CMakeFiles/usestok1.dir/build.make CMakeFiles/usestok1.dir/Chapter_10/10.3/10.3.5/usestok1.cpp.s
+.PHONY : Chapter_10/10.3/10.3.5/usestok1.cpp.s
+
+Chapter_10/10.7/stack.o: Chapter_10/10.7/stack.cpp.o
+
+.PHONY : Chapter_10/10.7/stack.o
+
+# target to build an object file
+Chapter_10/10.7/stack.cpp.o:
+	$(MAKE) -f CMakeFiles/stacker.dir/build.make CMakeFiles/stacker.dir/Chapter_10/10.7/stack.cpp.o
+.PHONY : Chapter_10/10.7/stack.cpp.o
+
+Chapter_10/10.7/stack.i: Chapter_10/10.7/stack.cpp.i
+
+.PHONY : Chapter_10/10.7/stack.i
+
+# target to preprocess a source file
+Chapter_10/10.7/stack.cpp.i:
+	$(MAKE) -f CMakeFiles/stacker.dir/build.make CMakeFiles/stacker.dir/Chapter_10/10.7/stack.cpp.i
+.PHONY : Chapter_10/10.7/stack.cpp.i
+
+Chapter_10/10.7/stack.s: Chapter_10/10.7/stack.cpp.s
+
+.PHONY : Chapter_10/10.7/stack.s
+
+# target to generate assembly for a file
+Chapter_10/10.7/stack.cpp.s:
+	$(MAKE) -f CMakeFiles/stacker.dir/build.make CMakeFiles/stacker.dir/Chapter_10/10.7/stack.cpp.s
+.PHONY : Chapter_10/10.7/stack.cpp.s
+
+Chapter_10/10.7/stacker.o: Chapter_10/10.7/stacker.cpp.o
+
+.PHONY : Chapter_10/10.7/stacker.o
+
+# target to build an object file
+Chapter_10/10.7/stacker.cpp.o:
+	$(MAKE) -f CMakeFiles/stacker.dir/build.make CMakeFiles/stacker.dir/Chapter_10/10.7/stacker.cpp.o
+.PHONY : Chapter_10/10.7/stacker.cpp.o
+
+Chapter_10/10.7/stacker.i: Chapter_10/10.7/stacker.cpp.i
+
+.PHONY : Chapter_10/10.7/stacker.i
+
+# target to preprocess a source file
+Chapter_10/10.7/stacker.cpp.i:
+	$(MAKE) -f CMakeFiles/stacker.dir/build.make CMakeFiles/stacker.dir/Chapter_10/10.7/stacker.cpp.i
+.PHONY : Chapter_10/10.7/stacker.cpp.i
+
+Chapter_10/10.7/stacker.s: Chapter_10/10.7/stacker.cpp.s
+
+.PHONY : Chapter_10/10.7/stacker.s
+
+# target to generate assembly for a file
+Chapter_10/10.7/stacker.cpp.s:
+	$(MAKE) -f CMakeFiles/stacker.dir/build.make CMakeFiles/stacker.dir/Chapter_10/10.7/stacker.cpp.s
+.PHONY : Chapter_10/10.7/stacker.cpp.s
+
+Chapter_11/11.2/11.2.1/mytime1.o: Chapter_11/11.2/11.2.1/mytime1.cpp.o
+
+.PHONY : Chapter_11/11.2/11.2.1/mytime1.o
+
+# target to build an object file
+Chapter_11/11.2/11.2.1/mytime1.cpp.o:
+	$(MAKE) -f CMakeFiles/usetime1.dir/build.make CMakeFiles/usetime1.dir/Chapter_11/11.2/11.2.1/mytime1.cpp.o
+.PHONY : Chapter_11/11.2/11.2.1/mytime1.cpp.o
+
+Chapter_11/11.2/11.2.1/mytime1.i: Chapter_11/11.2/11.2.1/mytime1.cpp.i
+
+.PHONY : Chapter_11/11.2/11.2.1/mytime1.i
+
+# target to preprocess a source file
+Chapter_11/11.2/11.2.1/mytime1.cpp.i:
+	$(MAKE) -f CMakeFiles/usetime1.dir/build.make CMakeFiles/usetime1.dir/Chapter_11/11.2/11.2.1/mytime1.cpp.i
+.PHONY : Chapter_11/11.2/11.2.1/mytime1.cpp.i
+
+Chapter_11/11.2/11.2.1/mytime1.s: Chapter_11/11.2/11.2.1/mytime1.cpp.s
+
+.PHONY : Chapter_11/11.2/11.2.1/mytime1.s
+
+# target to generate assembly for a file
+Chapter_11/11.2/11.2.1/mytime1.cpp.s:
+	$(MAKE) -f CMakeFiles/usetime1.dir/build.make CMakeFiles/usetime1.dir/Chapter_11/11.2/11.2.1/mytime1.cpp.s
+.PHONY : Chapter_11/11.2/11.2.1/mytime1.cpp.s
+
+Chapter_11/11.2/11.2.1/usetime1.o: Chapter_11/11.2/11.2.1/usetime1.cpp.o
+
+.PHONY : Chapter_11/11.2/11.2.1/usetime1.o
+
+# target to build an object file
+Chapter_11/11.2/11.2.1/usetime1.cpp.o:
+	$(MAKE) -f CMakeFiles/usetime1.dir/build.make CMakeFiles/usetime1.dir/Chapter_11/11.2/11.2.1/usetime1.cpp.o
+.PHONY : Chapter_11/11.2/11.2.1/usetime1.cpp.o
+
+Chapter_11/11.2/11.2.1/usetime1.i: Chapter_11/11.2/11.2.1/usetime1.cpp.i
+
+.PHONY : Chapter_11/11.2/11.2.1/usetime1.i
+
+# target to preprocess a source file
+Chapter_11/11.2/11.2.1/usetime1.cpp.i:
+	$(MAKE) -f CMakeFiles/usetime1.dir/build.make CMakeFiles/usetime1.dir/Chapter_11/11.2/11.2.1/usetime1.cpp.i
+.PHONY : Chapter_11/11.2/11.2.1/usetime1.cpp.i
+
+Chapter_11/11.2/11.2.1/usetime1.s: Chapter_11/11.2/11.2.1/usetime1.cpp.s
+
+.PHONY : Chapter_11/11.2/11.2.1/usetime1.s
+
+# target to generate assembly for a file
+Chapter_11/11.2/11.2.1/usetime1.cpp.s:
+	$(MAKE) -f CMakeFiles/usetime1.dir/build.make CMakeFiles/usetime1.dir/Chapter_11/11.2/11.2.1/usetime1.cpp.s
+.PHONY : Chapter_11/11.2/11.2.1/usetime1.cpp.s
+
+Chapter_11/11.2/11.2.3/mytime2.o: Chapter_11/11.2/11.2.3/mytime2.cpp.o
+
+.PHONY : Chapter_11/11.2/11.2.3/mytime2.o
+
+# target to build an object file
+Chapter_11/11.2/11.2.3/mytime2.cpp.o:
+	$(MAKE) -f CMakeFiles/usetime2.dir/build.make CMakeFiles/usetime2.dir/Chapter_11/11.2/11.2.3/mytime2.cpp.o
+.PHONY : Chapter_11/11.2/11.2.3/mytime2.cpp.o
+
+Chapter_11/11.2/11.2.3/mytime2.i: Chapter_11/11.2/11.2.3/mytime2.cpp.i
+
+.PHONY : Chapter_11/11.2/11.2.3/mytime2.i
+
+# target to preprocess a source file
+Chapter_11/11.2/11.2.3/mytime2.cpp.i:
+	$(MAKE) -f CMakeFiles/usetime2.dir/build.make CMakeFiles/usetime2.dir/Chapter_11/11.2/11.2.3/mytime2.cpp.i
+.PHONY : Chapter_11/11.2/11.2.3/mytime2.cpp.i
+
+Chapter_11/11.2/11.2.3/mytime2.s: Chapter_11/11.2/11.2.3/mytime2.cpp.s
+
+.PHONY : Chapter_11/11.2/11.2.3/mytime2.s
+
+# target to generate assembly for a file
+Chapter_11/11.2/11.2.3/mytime2.cpp.s:
+	$(MAKE) -f CMakeFiles/usetime2.dir/build.make CMakeFiles/usetime2.dir/Chapter_11/11.2/11.2.3/mytime2.cpp.s
+.PHONY : Chapter_11/11.2/11.2.3/mytime2.cpp.s
+
+Chapter_11/11.2/11.2.3/usetime2.o: Chapter_11/11.2/11.2.3/usetime2.cpp.o
+
+.PHONY : Chapter_11/11.2/11.2.3/usetime2.o
+
+# target to build an object file
+Chapter_11/11.2/11.2.3/usetime2.cpp.o:
+	$(MAKE) -f CMakeFiles/usetime2.dir/build.make CMakeFiles/usetime2.dir/Chapter_11/11.2/11.2.3/usetime2.cpp.o
+.PHONY : Chapter_11/11.2/11.2.3/usetime2.cpp.o
+
+Chapter_11/11.2/11.2.3/usetime2.i: Chapter_11/11.2/11.2.3/usetime2.cpp.i
+
+.PHONY : Chapter_11/11.2/11.2.3/usetime2.i
+
+# target to preprocess a source file
+Chapter_11/11.2/11.2.3/usetime2.cpp.i:
+	$(MAKE) -f CMakeFiles/usetime2.dir/build.make CMakeFiles/usetime2.dir/Chapter_11/11.2/11.2.3/usetime2.cpp.i
+.PHONY : Chapter_11/11.2/11.2.3/usetime2.cpp.i
+
+Chapter_11/11.2/11.2.3/usetime2.s: Chapter_11/11.2/11.2.3/usetime2.cpp.s
+
+.PHONY : Chapter_11/11.2/11.2.3/usetime2.s
+
+# target to generate assembly for a file
+Chapter_11/11.2/11.2.3/usetime2.cpp.s:
+	$(MAKE) -f CMakeFiles/usetime2.dir/build.make CMakeFiles/usetime2.dir/Chapter_11/11.2/11.2.3/usetime2.cpp.s
+.PHONY : Chapter_11/11.2/11.2.3/usetime2.cpp.s
+
+Chapter_11/11.2/mytime0.o: Chapter_11/11.2/mytime0.cpp.o
+
+.PHONY : Chapter_11/11.2/mytime0.o
+
+# target to build an object file
+Chapter_11/11.2/mytime0.cpp.o:
+	$(MAKE) -f CMakeFiles/usetime0.dir/build.make CMakeFiles/usetime0.dir/Chapter_11/11.2/mytime0.cpp.o
+.PHONY : Chapter_11/11.2/mytime0.cpp.o
+
+Chapter_11/11.2/mytime0.i: Chapter_11/11.2/mytime0.cpp.i
+
+.PHONY : Chapter_11/11.2/mytime0.i
+
+# target to preprocess a source file
+Chapter_11/11.2/mytime0.cpp.i:
+	$(MAKE) -f CMakeFiles/usetime0.dir/build.make CMakeFiles/usetime0.dir/Chapter_11/11.2/mytime0.cpp.i
+.PHONY : Chapter_11/11.2/mytime0.cpp.i
+
+Chapter_11/11.2/mytime0.s: Chapter_11/11.2/mytime0.cpp.s
+
+.PHONY : Chapter_11/11.2/mytime0.s
+
+# target to generate assembly for a file
+Chapter_11/11.2/mytime0.cpp.s:
+	$(MAKE) -f CMakeFiles/usetime0.dir/build.make CMakeFiles/usetime0.dir/Chapter_11/11.2/mytime0.cpp.s
+.PHONY : Chapter_11/11.2/mytime0.cpp.s
+
+Chapter_11/11.2/usetime0.o: Chapter_11/11.2/usetime0.cpp.o
+
+.PHONY : Chapter_11/11.2/usetime0.o
+
+# target to build an object file
+Chapter_11/11.2/usetime0.cpp.o:
+	$(MAKE) -f CMakeFiles/usetime0.dir/build.make CMakeFiles/usetime0.dir/Chapter_11/11.2/usetime0.cpp.o
+.PHONY : Chapter_11/11.2/usetime0.cpp.o
+
+Chapter_11/11.2/usetime0.i: Chapter_11/11.2/usetime0.cpp.i
+
+.PHONY : Chapter_11/11.2/usetime0.i
+
+# target to preprocess a source file
+Chapter_11/11.2/usetime0.cpp.i:
+	$(MAKE) -f CMakeFiles/usetime0.dir/build.make CMakeFiles/usetime0.dir/Chapter_11/11.2/usetime0.cpp.i
+.PHONY : Chapter_11/11.2/usetime0.cpp.i
+
+Chapter_11/11.2/usetime0.s: Chapter_11/11.2/usetime0.cpp.s
+
+.PHONY : Chapter_11/11.2/usetime0.s
+
+# target to generate assembly for a file
+Chapter_11/11.2/usetime0.cpp.s:
+	$(MAKE) -f CMakeFiles/usetime0.dir/build.make CMakeFiles/usetime0.dir/Chapter_11/11.2/usetime0.cpp.s
+.PHONY : Chapter_11/11.2/usetime0.cpp.s
+
+Chapter_11/11.3/mytime3.o: Chapter_11/11.3/mytime3.cpp.o
+
+.PHONY : Chapter_11/11.3/mytime3.o
+
+# target to build an object file
+Chapter_11/11.3/mytime3.cpp.o:
+	$(MAKE) -f CMakeFiles/usetime3.dir/build.make CMakeFiles/usetime3.dir/Chapter_11/11.3/mytime3.cpp.o
+.PHONY : Chapter_11/11.3/mytime3.cpp.o
+
+Chapter_11/11.3/mytime3.i: Chapter_11/11.3/mytime3.cpp.i
+
+.PHONY : Chapter_11/11.3/mytime3.i
+
+# target to preprocess a source file
+Chapter_11/11.3/mytime3.cpp.i:
+	$(MAKE) -f CMakeFiles/usetime3.dir/build.make CMakeFiles/usetime3.dir/Chapter_11/11.3/mytime3.cpp.i
+.PHONY : Chapter_11/11.3/mytime3.cpp.i
+
+Chapter_11/11.3/mytime3.s: Chapter_11/11.3/mytime3.cpp.s
+
+.PHONY : Chapter_11/11.3/mytime3.s
+
+# target to generate assembly for a file
+Chapter_11/11.3/mytime3.cpp.s:
+	$(MAKE) -f CMakeFiles/usetime3.dir/build.make CMakeFiles/usetime3.dir/Chapter_11/11.3/mytime3.cpp.s
+.PHONY : Chapter_11/11.3/mytime3.cpp.s
+
+Chapter_11/11.3/usetime3.o: Chapter_11/11.3/usetime3.cpp.o
+
+.PHONY : Chapter_11/11.3/usetime3.o
+
+# target to build an object file
+Chapter_11/11.3/usetime3.cpp.o:
+	$(MAKE) -f CMakeFiles/usetime3.dir/build.make CMakeFiles/usetime3.dir/Chapter_11/11.3/usetime3.cpp.o
+.PHONY : Chapter_11/11.3/usetime3.cpp.o
+
+Chapter_11/11.3/usetime3.i: Chapter_11/11.3/usetime3.cpp.i
+
+.PHONY : Chapter_11/11.3/usetime3.i
+
+# target to preprocess a source file
+Chapter_11/11.3/usetime3.cpp.i:
+	$(MAKE) -f CMakeFiles/usetime3.dir/build.make CMakeFiles/usetime3.dir/Chapter_11/11.3/usetime3.cpp.i
+.PHONY : Chapter_11/11.3/usetime3.cpp.i
+
+Chapter_11/11.3/usetime3.s: Chapter_11/11.3/usetime3.cpp.s
+
+.PHONY : Chapter_11/11.3/usetime3.s
+
+# target to generate assembly for a file
+Chapter_11/11.3/usetime3.cpp.s:
+	$(MAKE) -f CMakeFiles/usetime3.dir/build.make CMakeFiles/usetime3.dir/Chapter_11/11.3/usetime3.cpp.s
+.PHONY : Chapter_11/11.3/usetime3.cpp.s
+
+Chapter_11/11.6/stone.o: Chapter_11/11.6/stone.cpp.o
+
+.PHONY : Chapter_11/11.6/stone.o
+
+# target to build an object file
+Chapter_11/11.6/stone.cpp.o:
+	$(MAKE) -f CMakeFiles/stone.dir/build.make CMakeFiles/stone.dir/Chapter_11/11.6/stone.cpp.o
+.PHONY : Chapter_11/11.6/stone.cpp.o
+
+Chapter_11/11.6/stone.i: Chapter_11/11.6/stone.cpp.i
+
+.PHONY : Chapter_11/11.6/stone.i
+
+# target to preprocess a source file
+Chapter_11/11.6/stone.cpp.i:
+	$(MAKE) -f CMakeFiles/stone.dir/build.make CMakeFiles/stone.dir/Chapter_11/11.6/stone.cpp.i
+.PHONY : Chapter_11/11.6/stone.cpp.i
+
+Chapter_11/11.6/stone.s: Chapter_11/11.6/stone.cpp.s
+
+.PHONY : Chapter_11/11.6/stone.s
+
+# target to generate assembly for a file
+Chapter_11/11.6/stone.cpp.s:
+	$(MAKE) -f CMakeFiles/stone.dir/build.make CMakeFiles/stone.dir/Chapter_11/11.6/stone.cpp.s
+.PHONY : Chapter_11/11.6/stone.cpp.s
+
+Chapter_11/11.6/stonewt.o: Chapter_11/11.6/stonewt.cpp.o
+
+.PHONY : Chapter_11/11.6/stonewt.o
+
+# target to build an object file
+Chapter_11/11.6/stonewt.cpp.o:
+	$(MAKE) -f CMakeFiles/stone.dir/build.make CMakeFiles/stone.dir/Chapter_11/11.6/stonewt.cpp.o
+.PHONY : Chapter_11/11.6/stonewt.cpp.o
+
+Chapter_11/11.6/stonewt.i: Chapter_11/11.6/stonewt.cpp.i
+
+.PHONY : Chapter_11/11.6/stonewt.i
+
+# target to preprocess a source file
+Chapter_11/11.6/stonewt.cpp.i:
+	$(MAKE) -f CMakeFiles/stone.dir/build.make CMakeFiles/stone.dir/Chapter_11/11.6/stonewt.cpp.i
+.PHONY : Chapter_11/11.6/stonewt.cpp.i
+
+Chapter_11/11.6/stonewt.s: Chapter_11/11.6/stonewt.cpp.s
+
+.PHONY : Chapter_11/11.6/stonewt.s
+
+# target to generate assembly for a file
+Chapter_11/11.6/stonewt.cpp.s:
+	$(MAKE) -f CMakeFiles/stone.dir/build.make CMakeFiles/stone.dir/Chapter_11/11.6/stonewt.cpp.s
+.PHONY : Chapter_11/11.6/stonewt.cpp.s
 
 Chapter_3/Opp.o: Chapter_3/Opp.cpp.o
 
@@ -1363,6 +1844,168 @@ Chapter_8/twotemps.cpp.s:
 	$(MAKE) -f CMakeFiles/twotemps.dir/build.make CMakeFiles/twotemps.dir/Chapter_8/twotemps.cpp.s
 .PHONY : Chapter_8/twotemps.cpp.s
 
+Chapter_9/9.1/file1.o: Chapter_9/9.1/file1.cpp.o
+
+.PHONY : Chapter_9/9.1/file1.o
+
+# target to build an object file
+Chapter_9/9.1/file1.cpp.o:
+	$(MAKE) -f CMakeFiles/file1.dir/build.make CMakeFiles/file1.dir/Chapter_9/9.1/file1.cpp.o
+.PHONY : Chapter_9/9.1/file1.cpp.o
+
+Chapter_9/9.1/file1.i: Chapter_9/9.1/file1.cpp.i
+
+.PHONY : Chapter_9/9.1/file1.i
+
+# target to preprocess a source file
+Chapter_9/9.1/file1.cpp.i:
+	$(MAKE) -f CMakeFiles/file1.dir/build.make CMakeFiles/file1.dir/Chapter_9/9.1/file1.cpp.i
+.PHONY : Chapter_9/9.1/file1.cpp.i
+
+Chapter_9/9.1/file1.s: Chapter_9/9.1/file1.cpp.s
+
+.PHONY : Chapter_9/9.1/file1.s
+
+# target to generate assembly for a file
+Chapter_9/9.1/file1.cpp.s:
+	$(MAKE) -f CMakeFiles/file1.dir/build.make CMakeFiles/file1.dir/Chapter_9/9.1/file1.cpp.s
+.PHONY : Chapter_9/9.1/file1.cpp.s
+
+Chapter_9/9.1/file2.o: Chapter_9/9.1/file2.cpp.o
+
+.PHONY : Chapter_9/9.1/file2.o
+
+# target to build an object file
+Chapter_9/9.1/file2.cpp.o:
+	$(MAKE) -f CMakeFiles/file1.dir/build.make CMakeFiles/file1.dir/Chapter_9/9.1/file2.cpp.o
+.PHONY : Chapter_9/9.1/file2.cpp.o
+
+Chapter_9/9.1/file2.i: Chapter_9/9.1/file2.cpp.i
+
+.PHONY : Chapter_9/9.1/file2.i
+
+# target to preprocess a source file
+Chapter_9/9.1/file2.cpp.i:
+	$(MAKE) -f CMakeFiles/file1.dir/build.make CMakeFiles/file1.dir/Chapter_9/9.1/file2.cpp.i
+.PHONY : Chapter_9/9.1/file2.cpp.i
+
+Chapter_9/9.1/file2.s: Chapter_9/9.1/file2.cpp.s
+
+.PHONY : Chapter_9/9.1/file2.s
+
+# target to generate assembly for a file
+Chapter_9/9.1/file2.cpp.s:
+	$(MAKE) -f CMakeFiles/file1.dir/build.make CMakeFiles/file1.dir/Chapter_9/9.1/file2.cpp.s
+.PHONY : Chapter_9/9.1/file2.cpp.s
+
+Chapter_9/9.2/9.2.10/newplace.o: Chapter_9/9.2/9.2.10/newplace.cpp.o
+
+.PHONY : Chapter_9/9.2/9.2.10/newplace.o
+
+# target to build an object file
+Chapter_9/9.2/9.2.10/newplace.cpp.o:
+	$(MAKE) -f CMakeFiles/newplace.dir/build.make CMakeFiles/newplace.dir/Chapter_9/9.2/9.2.10/newplace.cpp.o
+.PHONY : Chapter_9/9.2/9.2.10/newplace.cpp.o
+
+Chapter_9/9.2/9.2.10/newplace.i: Chapter_9/9.2/9.2.10/newplace.cpp.i
+
+.PHONY : Chapter_9/9.2/9.2.10/newplace.i
+
+# target to preprocess a source file
+Chapter_9/9.2/9.2.10/newplace.cpp.i:
+	$(MAKE) -f CMakeFiles/newplace.dir/build.make CMakeFiles/newplace.dir/Chapter_9/9.2/9.2.10/newplace.cpp.i
+.PHONY : Chapter_9/9.2/9.2.10/newplace.cpp.i
+
+Chapter_9/9.2/9.2.10/newplace.s: Chapter_9/9.2/9.2.10/newplace.cpp.s
+
+.PHONY : Chapter_9/9.2/9.2.10/newplace.s
+
+# target to generate assembly for a file
+Chapter_9/9.2/9.2.10/newplace.cpp.s:
+	$(MAKE) -f CMakeFiles/newplace.dir/build.make CMakeFiles/newplace.dir/Chapter_9/9.2/9.2.10/newplace.cpp.s
+.PHONY : Chapter_9/9.2/9.2.10/newplace.cpp.s
+
+Chapter_9/9.2/9.2.2/autoscp.o: Chapter_9/9.2/9.2.2/autoscp.cpp.o
+
+.PHONY : Chapter_9/9.2/9.2.2/autoscp.o
+
+# target to build an object file
+Chapter_9/9.2/9.2.2/autoscp.cpp.o:
+	$(MAKE) -f CMakeFiles/autoscp.dir/build.make CMakeFiles/autoscp.dir/Chapter_9/9.2/9.2.2/autoscp.cpp.o
+.PHONY : Chapter_9/9.2/9.2.2/autoscp.cpp.o
+
+Chapter_9/9.2/9.2.2/autoscp.i: Chapter_9/9.2/9.2.2/autoscp.cpp.i
+
+.PHONY : Chapter_9/9.2/9.2.2/autoscp.i
+
+# target to preprocess a source file
+Chapter_9/9.2/9.2.2/autoscp.cpp.i:
+	$(MAKE) -f CMakeFiles/autoscp.dir/build.make CMakeFiles/autoscp.dir/Chapter_9/9.2/9.2.2/autoscp.cpp.i
+.PHONY : Chapter_9/9.2/9.2.2/autoscp.cpp.i
+
+Chapter_9/9.2/9.2.2/autoscp.s: Chapter_9/9.2/9.2.2/autoscp.cpp.s
+
+.PHONY : Chapter_9/9.2/9.2.2/autoscp.s
+
+# target to generate assembly for a file
+Chapter_9/9.2/9.2.2/autoscp.cpp.s:
+	$(MAKE) -f CMakeFiles/autoscp.dir/build.make CMakeFiles/autoscp.dir/Chapter_9/9.2/9.2.2/autoscp.cpp.s
+.PHONY : Chapter_9/9.2/9.2.2/autoscp.cpp.s
+
+Chapter_9/9.2/9.2.3/external.o: Chapter_9/9.2/9.2.3/external.cpp.o
+
+.PHONY : Chapter_9/9.2/9.2.3/external.o
+
+# target to build an object file
+Chapter_9/9.2/9.2.3/external.cpp.o:
+	$(MAKE) -f CMakeFiles/external.dir/build.make CMakeFiles/external.dir/Chapter_9/9.2/9.2.3/external.cpp.o
+.PHONY : Chapter_9/9.2/9.2.3/external.cpp.o
+
+Chapter_9/9.2/9.2.3/external.i: Chapter_9/9.2/9.2.3/external.cpp.i
+
+.PHONY : Chapter_9/9.2/9.2.3/external.i
+
+# target to preprocess a source file
+Chapter_9/9.2/9.2.3/external.cpp.i:
+	$(MAKE) -f CMakeFiles/external.dir/build.make CMakeFiles/external.dir/Chapter_9/9.2/9.2.3/external.cpp.i
+.PHONY : Chapter_9/9.2/9.2.3/external.cpp.i
+
+Chapter_9/9.2/9.2.3/external.s: Chapter_9/9.2/9.2.3/external.cpp.s
+
+.PHONY : Chapter_9/9.2/9.2.3/external.s
+
+# target to generate assembly for a file
+Chapter_9/9.2/9.2.3/external.cpp.s:
+	$(MAKE) -f CMakeFiles/external.dir/build.make CMakeFiles/external.dir/Chapter_9/9.2/9.2.3/external.cpp.s
+.PHONY : Chapter_9/9.2/9.2.3/external.cpp.s
+
+Chapter_9/9.2/9.2.3/support.o: Chapter_9/9.2/9.2.3/support.cpp.o
+
+.PHONY : Chapter_9/9.2/9.2.3/support.o
+
+# target to build an object file
+Chapter_9/9.2/9.2.3/support.cpp.o:
+	$(MAKE) -f CMakeFiles/external.dir/build.make CMakeFiles/external.dir/Chapter_9/9.2/9.2.3/support.cpp.o
+.PHONY : Chapter_9/9.2/9.2.3/support.cpp.o
+
+Chapter_9/9.2/9.2.3/support.i: Chapter_9/9.2/9.2.3/support.cpp.i
+
+.PHONY : Chapter_9/9.2/9.2.3/support.i
+
+# target to preprocess a source file
+Chapter_9/9.2/9.2.3/support.cpp.i:
+	$(MAKE) -f CMakeFiles/external.dir/build.make CMakeFiles/external.dir/Chapter_9/9.2/9.2.3/support.cpp.i
+.PHONY : Chapter_9/9.2/9.2.3/support.cpp.i
+
+Chapter_9/9.2/9.2.3/support.s: Chapter_9/9.2/9.2.3/support.cpp.s
+
+.PHONY : Chapter_9/9.2/9.2.3/support.s
+
+# target to generate assembly for a file
+Chapter_9/9.2/9.2.3/support.cpp.s:
+	$(MAKE) -f CMakeFiles/external.dir/build.make CMakeFiles/external.dir/Chapter_9/9.2/9.2.3/support.cpp.s
+.PHONY : Chapter_9/9.2/9.2.3/support.cpp.s
+
 T1.o: T1.cpp.o
 
 .PHONY : T1.o
@@ -1423,49 +2066,98 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
-	@echo "... stock10"
-	@echo "... funtemp"
-	@echo "... strquote"
-	@echo "... strc_ref"
-	@echo "... swaps"
-	@echo "... secref"
-	@echo "... inline"
-	@echo "... cubes"
-	@echo "... arrobj"
-	@echo "... strctptr"
-	@echo "... twotemps"
-	@echo "... modulus"
-	@echo "... twoarg"
-	@echo "... Learning_From_Primer_Plus"
-	@echo "... arrfun1"
 	@echo "... rebuild_cache"
-	@echo "... T1"
-	@echo "... typecast"
-	@echo "... usestok1"
-	@echo "... firstref"
-	@echo "... Opp"
-	@echo "... protos"
-	@echo "... calling"
-	@echo "... twoswap"
-	@echo "... lotto"
-	@echo "... left"
-	@echo "... travel"
-	@echo "... init"
-	@echo "... divide"
-	@echo "... arrfun3"
-	@echo "... arrfun2"
-	@echo "... T"
+	@echo "... stone"
+	@echo "... stacker"
 	@echo "... arrfun4"
-	@echo "... Chapter_10/Destructors/Test.o"
-	@echo "... Chapter_10/Destructors/Test.i"
-	@echo "... Chapter_10/Destructors/Test.s"
-	@echo "... Chapter_10/Destructors/stock10.o"
-	@echo "... Chapter_10/Destructors/stock10.i"
-	@echo "... Chapter_10/Destructors/stock10.s"
-	@echo "... Chapter_10/Destructors/usestok1.o"
-	@echo "... Chapter_10/Destructors/usestok1.i"
-	@echo "... Chapter_10/Destructors/usestok1.s"
+	@echo "... arrfun2"
+	@echo "... arrfun3"
+	@echo "... init"
+	@echo "... travel"
+	@echo "... left"
+	@echo "... autoscp"
+	@echo "... usestok0"
+	@echo "... twoswap"
+	@echo "... newplace"
+	@echo "... calling"
+	@echo "... usetime0"
+	@echo "... protos"
+	@echo "... edit_cache"
+	@echo "... Opp"
+	@echo "... firstref"
+	@echo "... usetime3"
+	@echo "... usestok1"
+	@echo "... typecast"
+	@echo "... arrfun1"
+	@echo "... Learning_From_Primer_Plus"
+	@echo "... lotto"
+	@echo "... twotemps"
+	@echo "... file1"
+	@echo "... divide"
+	@echo "... strctptr"
+	@echo "... arrobj"
+	@echo "... cubes"
+	@echo "... modulus"
+	@echo "... inline"
+	@echo "... secref"
+	@echo "... usetime2"
+	@echo "... swaps"
+	@echo "... usetime1"
+	@echo "... strc_ref"
+	@echo "... T"
+	@echo "... twoarg"
+	@echo "... strquote"
+	@echo "... funtemp"
+	@echo "... T1"
+	@echo "... external"
+	@echo "... Chapter_10/10.2/10.2.2/stock00.o"
+	@echo "... Chapter_10/10.2/10.2.2/stock00.i"
+	@echo "... Chapter_10/10.2/10.2.2/stock00.s"
+	@echo "... Chapter_10/10.2/10.2.2/usestok0.o"
+	@echo "... Chapter_10/10.2/10.2.2/usestok0.i"
+	@echo "... Chapter_10/10.2/10.2.2/usestok0.s"
+	@echo "... Chapter_10/10.3/10.3.5/stock10.o"
+	@echo "... Chapter_10/10.3/10.3.5/stock10.i"
+	@echo "... Chapter_10/10.3/10.3.5/stock10.s"
+	@echo "... Chapter_10/10.3/10.3.5/usestok1.o"
+	@echo "... Chapter_10/10.3/10.3.5/usestok1.i"
+	@echo "... Chapter_10/10.3/10.3.5/usestok1.s"
+	@echo "... Chapter_10/10.7/stack.o"
+	@echo "... Chapter_10/10.7/stack.i"
+	@echo "... Chapter_10/10.7/stack.s"
+	@echo "... Chapter_10/10.7/stacker.o"
+	@echo "... Chapter_10/10.7/stacker.i"
+	@echo "... Chapter_10/10.7/stacker.s"
+	@echo "... Chapter_11/11.2/11.2.1/mytime1.o"
+	@echo "... Chapter_11/11.2/11.2.1/mytime1.i"
+	@echo "... Chapter_11/11.2/11.2.1/mytime1.s"
+	@echo "... Chapter_11/11.2/11.2.1/usetime1.o"
+	@echo "... Chapter_11/11.2/11.2.1/usetime1.i"
+	@echo "... Chapter_11/11.2/11.2.1/usetime1.s"
+	@echo "... Chapter_11/11.2/11.2.3/mytime2.o"
+	@echo "... Chapter_11/11.2/11.2.3/mytime2.i"
+	@echo "... Chapter_11/11.2/11.2.3/mytime2.s"
+	@echo "... Chapter_11/11.2/11.2.3/usetime2.o"
+	@echo "... Chapter_11/11.2/11.2.3/usetime2.i"
+	@echo "... Chapter_11/11.2/11.2.3/usetime2.s"
+	@echo "... Chapter_11/11.2/mytime0.o"
+	@echo "... Chapter_11/11.2/mytime0.i"
+	@echo "... Chapter_11/11.2/mytime0.s"
+	@echo "... Chapter_11/11.2/usetime0.o"
+	@echo "... Chapter_11/11.2/usetime0.i"
+	@echo "... Chapter_11/11.2/usetime0.s"
+	@echo "... Chapter_11/11.3/mytime3.o"
+	@echo "... Chapter_11/11.3/mytime3.i"
+	@echo "... Chapter_11/11.3/mytime3.s"
+	@echo "... Chapter_11/11.3/usetime3.o"
+	@echo "... Chapter_11/11.3/usetime3.i"
+	@echo "... Chapter_11/11.3/usetime3.s"
+	@echo "... Chapter_11/11.6/stone.o"
+	@echo "... Chapter_11/11.6/stone.i"
+	@echo "... Chapter_11/11.6/stone.s"
+	@echo "... Chapter_11/11.6/stonewt.o"
+	@echo "... Chapter_11/11.6/stonewt.i"
+	@echo "... Chapter_11/11.6/stonewt.s"
 	@echo "... Chapter_3/Opp.o"
 	@echo "... Chapter_3/Opp.i"
 	@echo "... Chapter_3/Opp.s"
@@ -1550,6 +2242,24 @@ help:
 	@echo "... Chapter_8/twotemps.o"
 	@echo "... Chapter_8/twotemps.i"
 	@echo "... Chapter_8/twotemps.s"
+	@echo "... Chapter_9/9.1/file1.o"
+	@echo "... Chapter_9/9.1/file1.i"
+	@echo "... Chapter_9/9.1/file1.s"
+	@echo "... Chapter_9/9.1/file2.o"
+	@echo "... Chapter_9/9.1/file2.i"
+	@echo "... Chapter_9/9.1/file2.s"
+	@echo "... Chapter_9/9.2/9.2.10/newplace.o"
+	@echo "... Chapter_9/9.2/9.2.10/newplace.i"
+	@echo "... Chapter_9/9.2/9.2.10/newplace.s"
+	@echo "... Chapter_9/9.2/9.2.2/autoscp.o"
+	@echo "... Chapter_9/9.2/9.2.2/autoscp.i"
+	@echo "... Chapter_9/9.2/9.2.2/autoscp.s"
+	@echo "... Chapter_9/9.2/9.2.3/external.o"
+	@echo "... Chapter_9/9.2/9.2.3/external.i"
+	@echo "... Chapter_9/9.2/9.2.3/external.s"
+	@echo "... Chapter_9/9.2/9.2.3/support.o"
+	@echo "... Chapter_9/9.2/9.2.3/support.i"
+	@echo "... Chapter_9/9.2/9.2.3/support.s"
 	@echo "... T1.o"
 	@echo "... T1.i"
 	@echo "... T1.s"

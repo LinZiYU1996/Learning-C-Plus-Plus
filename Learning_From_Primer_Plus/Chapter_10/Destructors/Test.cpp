@@ -7,7 +7,7 @@
 // constructors (verbose versions)
 Stock::Stock() // default constructor
 {
-    std::cout << "Default constructor called\n";
+    std::cout << "默认构造器 called\n";
     company = "no name";
     shares = 0;
     share_val = 0.0;
@@ -15,7 +15,7 @@ Stock::Stock() // default constructor
 }
 Stock::Stock(const std::string & co, long n, double pr)
 {
-    std::cout << "Constructor using " << co << " called\n";
+    std::cout << "构造器使用 " << co << " called\n";
     company = co;
     if (n < 0)
     {
@@ -31,7 +31,7 @@ Stock::Stock(const std::string & co, long n, double pr)
 // class destructor
 Stock::~Stock() // verbose class destructor
 {
-    std::cout << "Bye, " << company << "!\n";
+    std::cout << "启动析构函数, " << company << "!\n";
 }
 // other methods
 void Stock::buy(long num, double price)

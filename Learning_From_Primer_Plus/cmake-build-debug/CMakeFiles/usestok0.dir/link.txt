@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/usestok0.dir/Chapter_10/10.2/10.2.2/usestok0.cpp.o CMakeFiles/usestok0.dir/Chapter_10/10.2/10.2.2/stock00.cpp.o  -o usestok0.exe -Wl,--out-implib,libusestok0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

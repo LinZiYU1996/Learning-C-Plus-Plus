@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/autoscp.dir/Chapter_9/9.2/9.2.2/autoscp.cpp.o  -o autoscp.exe -Wl,--out-implib,libautoscp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

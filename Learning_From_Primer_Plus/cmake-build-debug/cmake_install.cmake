@@ -1,4 +1,4 @@
-# Install script for directory: /cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus
+# Install script for directory: /cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/cygdrive/f/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/cygdrive/g/Learning_C++/Learning-C-Plus-Plus/Learning_From_Primer_Plus/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
